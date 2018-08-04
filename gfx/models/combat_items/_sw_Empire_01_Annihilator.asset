@@ -1,0 +1,272 @@
+##########
+# Annihilator
+##########
+
+####
+# XL Gun
+####
+
+entity = {
+	name = "Empire_Anni_XL_large_muzzle_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "green_turbolaser_large_muzzle_particle" keep_particle = yes sound = { soundeffect = sw_Empire_Annihilator_XL_gun } } 
+	}
+}
+
+# PROJECTILE
+
+entity = {
+	name = "sw_Anni_green_XL_entity"
+	pdxmesh = "sw_turbolaser_g_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	
+	locator = { name = "bolt1" rotation = { 0 0 0 } position = { -1 0 0 } }
+	attach = { bolt1 = "turbolaser_2_green_small_entity" }
+	
+	scale = 1.4
+}
+
+
+# HIT EFFECT
+
+entity = {
+	name = "Empire_Anni_XL_large_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "green_turbolaser_large_hit_effect" sound = { soundeffect = sw_hull_hit } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_sw_hull_hit" } } 
+	}
+	#state = { name = "explode_med_hp" state_time = 5 looping = no
+	#	event = { time = 0.0 node = "root" particle = "projectile_large_shield_hit_effect" }
+	#}
+	state = { name = "explode_med_shield" state_time = 0.8 looping = no
+		event = { time = 0.0 node = "root" particle = "medium_hit_effect_shield" }
+	}
+	default_state = "explode_med_hp"
+}
+
+
+
+# SHIELD HIT
+
+entity = {
+	name = "Empire_Anni_XL_large_shield_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "green_turbolaser_large_hit_effect" sound = { soundeffect = sw_shield_hit } }
+		event = { time = 0.0 node = "root" particle = "projectile_large_shield_hit_effect" }
+		event = { trigger_once = yes sound = { soundeffect = "distance_sw_shield_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+#####
+#Large Turret
+#####
+
+#
+entity = {
+	name = "Empire_Anni_TL_large_muzzle_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "green_turbolaser_large_muzzle_particle" keep_particle = yes sound = { soundeffect = sw_Empire_Annihilator_Large_gun } }
+	}
+}
+
+# PROJECTILE
+
+entity = {
+	name = "Empire_Anni_TL_green_large_entity"
+	pdxmesh = "sw_turbolaser_g_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	
+	locator = { name = "bolt1" rotation = { 0 0 0 } position = { -0.5 0 0 } }
+	locator = { name = "bolt2" rotation = { 0 0 0 } position = { 1 0 0 } }
+	locator = { name = "bolt3" rotation = { 0 0 0 } position = { 1.5 0 0 } }
+	attach = { bolt1 = "heavy_turbo_green_2_large_entity" }
+	attach = { bolt2 = "heavy_turbo_green_2_large_entity" }
+	attach = { bolt3 = "heavy_turbo_green_2_large_entity" }
+	
+	scale = 0.9
+}
+
+# Hit EFFECT
+
+entity = {
+	name = "Empire_Anni_TL_large_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "green_turbolaser_large_hit_effect" sound = { soundeffect = sw_hull_hit } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_sw_hull_hit" } }
+	}
+	state = { name = "explode_med_shield" state_time = 0.8 looping = no
+		event = { time = 0.0 node = "root" particle = "medium_hit_effect_shield" }
+		
+	}
+	default_state = "explode_med_hp"
+}
+
+entity = {
+	name = "Empire_Anni_TL_large_shield_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "green_turbolaser_large_hit_effect" sound = { soundeffect = sw_shield_hit } }
+		event = { time = 0.0 node = "root" particle = "projectile_large_shield_hit_effect" }
+		event = { trigger_once = yes sound = { soundeffect = "distance_sw_shield_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+
+#####
+#Ball TL Turret
+#####
+
+#
+entity = {
+	name = "Empire_Anni_BTL_medium_muzzle_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "green_turbolaser_medium_muzzle_particle" keep_particle = yes sound = { soundeffect = sw_Empire_Annihilator_Quad_gun } }
+	}
+}
+
+# PROJECTILE
+
+entity = {
+	name = "Empire_Anni_BTL_green_medium_entity"
+	pdxmesh = "sw_turbolaser_g_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	
+	locator = { name = "bolt1" rotation = { 0 0 0 } position = { -0.5 0 0 } }
+	locator = { name = "bolt2" rotation = { 0 0 0 } position = { -0.25 -0.5 0 } }
+	attach = { bolt1 = "heavy_turbo_green_2_large_entity" }
+	attach = { bolt2 = "heavy_turbo_green_2_large_entity" }
+
+	
+	scale = 0.9
+}
+
+# Hit EFFECT
+
+entity = {
+	name = "Empire_Anni_BTL_medium_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "green_turbolaser_medium_hit_effect" sound = { soundeffect = sw_hull_hit } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_sw_hull_hit" } }
+	}
+	state = { name = "explode_med_shield" state_time = 0.8 looping = no
+		event = { time = 0.0 node = "root" particle = "medium_hit_effect_shield" }
+		
+	}
+	default_state = "explode_med_hp"
+}
+
+entity = {
+	name = "Empire_Anni_BTL_medium_shield_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "green_turbolaser_medium_hit_effect" sound = { soundeffect = sw_shield_hit } }
+		event = { time = 0.0 node = "root" particle = "projectile_large_shield_hit_effect" }
+		event = { trigger_once = yes sound = { soundeffect = "distance_sw_shield_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+#####
+#Ion Turret
+#####
+
+
+entity = {
+	name = "Empire_Anni_Ion_medium_muzzle_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "ion_turbolaser_medium_muzzle_particle" keep_particle = yes sound = { soundeffect = ion_cannon } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_ion_cannon" } }
+	}
+}
+
+# Projectile
+
+entity = {
+	name = "Empire_Anni_Ion_medium_entity"
+	pdxmesh = "sw_turbolaser_c_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" 
+		event = { time = 0 particle = "sw_ion_spark_idle_particle" keep_particle = yes }
+	}
+	
+	locator = { name = "bolt1" rotation = { 0 0 0 } position = { -0.5 0 0 } }
+	attach = { bolt1 = "ion_cannon_bolt_2_small_entity" }
+	locator = { name = "bolt2" rotation = { 0 0 0 } position = { -0.25 -0.5 0 } }
+	attach = { bolt2 = "ion_cannon_bolt_2_small_entity" }
+	
+	scale = 1.0
+}
+
+
+entity = {
+	name = "Empire_Anni_Ion_medium_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "ion_turbolaser_medium_hit_effect" sound = { soundeffect = sw_hull_hit } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_sw_hull_hit" } } 
+	}
+	#state = { name = "explode_med_hp" state_time = 5 looping = no
+	#	event = { time = 0.0 node = "root" particle = "projectile_medium_shield_hit_effect" }
+	#}
+	state = { name = "explode_med_shield" state_time = 0.8 looping = no
+		event = { time = 0.0 node = "root" particle = "medium_hit_effect_shield" }
+	}
+	default_state = "explode_med_hp"
+}
+
+entity = {
+	name = "Empire_Anni_Ion_medium_shield_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "ion_turbolaser_medium_hit_effect" sound = { soundeffect = sw_shield_hit } }
+		event = { time = 0.0 node = "root" particle = "projectile_medium_shield_hit_effect" }
+		event = { trigger_once = yes sound = { soundeffect = "distance_sw_shield_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,189 @@
+
+########## WEAPONS SFX ############
+
+#########
+#Empire Mod
+#########
+
+########## ON DISTANCE WEAPONS SFX
+
+
+############ CLOSE WEAPONS SFX
+soundeffect = {
+	name = Tie_Fighter_Laser
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = TIE_Laser_01
+		sound = TIE_Laser_02
+	}
+	is3d = yes
+	max_audible = 4
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.5 }
+	volume = 0.8
+}
+
+soundeffect = {
+	name = Slave1_Patrol_Laser
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = Slave1_Laser_01
+
+	}
+	is3d = yes
+	max_audible = 4
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.5 }
+	volume = 0.8
+}
+
+soundeffect = {
+	name = sw_Empire_Annihilator_XL_gun
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = Empire_Anni_XL_gun
+	}
+	is3d = yes
+	max_audible = 4
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.5 }
+	volume = 0.8
+}
+
+soundeffect = {
+	name = sw_Empire_Annihilator_Large_gun
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = Empire_Anni_Large_gun
+	}
+	is3d = yes
+	max_audible = 4
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.5 }
+	volume = 0.8
+}
+
+soundeffect = {
+	name = sw_Empire_Annihilator_Quad_gun
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = Empire_Anni_Quad_gun
+	}
+	is3d = yes
+	max_audible = 4
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.5 }
+	volume = 0.8
+}
+
+######### HIT ENTITIY & DEATH #####
+
+soundeffect = {
+	name = sw_Slave1_hit
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = Slave1_Laser_hit_01
+	}
+	is3d = yes
+	max_audible = 5
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 0.6 }
+	volume = 0.8
+}
+
+#########
+#Rebel Mod
+#########
+
+############ CLOSE WEAPONS SFX
+soundeffect = {
+	name = Z95_Laser
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = Z95_Laser_01
+	}
+	is3d = yes
+	max_audible = 4
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.5 }
+	volume = 0.8
+}
+
+soundeffect = {
+	name = Falcon_Laser
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = Falcon_Laser_01
+	}
+	is3d = yes
+	max_audible = 4
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.5 }
+	volume = 0.8
+}
+
+
+###### 
+#Fractal Mod
+######
+
+############ CLOSE WEAPONS SFX
+soundeffect = {
+	name = sw_Fractal_Quad
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = Fractal_Quad_01
+	}
+	is3d = yes
+	max_audible = 4
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.5 }
+	volume = 0.6
+}
+
+soundeffect = {
+	name = sw_Fractal_LTL
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = Fractal_LTL_01
+	}
+	is3d = yes
+	max_audible = 4
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.5 }
+	volume = 0.8
+}
+
+########### Distant
+
+soundeffect = {
+	name = distant_sw_Fractal_Quad
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = distant_sw_Fractal_Quad_01
+
+	}
+	is3d = yes
+	max_audible = 3
+	max_audible_behaviour = fail
+	playbackrate_random_offset = { 0.0 -2.05 }
+	volume = 0.6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

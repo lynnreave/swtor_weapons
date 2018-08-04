@@ -1,0 +1,659 @@
+﻿l_polish:
+
+ ####################################
+ # Color Event #by shuulleech
+ ####################################
+
+ tech_st_blaster_eng_color_event:0 "Turbolaser Color"
+ tech_st_blaster_eng_color_event_desc:0 "Please select color of Turbolasers"
+ 
+ 
+ ####################################
+ # Turbo Laser
+ ####################################
+
+ tech_st_blaster_eng:0 "Blaster Technology"
+ tech_st_blaster_eng_desc:0 "New weapon technology that will convert rich-energy gas to a glowing particle beam, that can melt through targets."
+ 
+ tech_st_shipsized_weapons:0 "Ship Sized Weapons"
+ tech_st_shipsized_weapons_desc:0 "After some succes in new energy producing and storage technology, we now have the ground base for a ship sized blaster weapons"
+ 
+ tech_st_blastercolor_red:0 "Red Color"
+ tech_st_blastercolor_red_desc:0 "Will lead to Red Turbolasers"
+ 
+ tech_st_blastercolor_green:0 "Green Color"
+ tech_st_blastercolor_green_desc:0 "Will lead to Green Turbolasers"
+ 
+ tech_st_blastercolor_blue:0 "Blue Color"
+ tech_st_blastercolor_blue_desc:0 "Will lead to Blue Turbolasers"
+ 
+ tech_st_blastercolor_purple:0 "Purple Color"
+ tech_st_blastercolor_purple_desc:0 "Will lead to Disruptors"
+ 
+ tech_st_tibanna_refined:0 "Refined Tibanna Gas"
+ tech_st_tibanna_refined_desc:0 "Better refined Tibanna Gas, will allow us, higher energy output and management for the turbolaser weapons"
+ 
+ tech_st_galven_coils:0 "New Galven Coils"
+ tech_st_galven_coils_desc:0 "New galven coils, better at focusing the energy released into the tibanna gas, allowing for higher damage output to the target."
+ 
+ tech_st_cap_comp:0 "New Capacitor Component"
+ tech_st_cap_comp_desc:0 "New enhanced field stabilization technology and precision targeting algorithms will allow us to build a new weapontype"
+ 
+ tech_st_blast_rad:0 "Blaster Radiators"
+ tech_st_blast_rad_desc:0 "New efficient cooling systems for a new ship based weapontype"
+ 
+ tech_st_fire_chamb:0 "Firing Chamber"
+ tech_st_fire_chamb_desc:0 "Larger firing chambers will allow for wider energy beams that causes greater damage, capable of blasting huge chunks out of anything the beam hits."
+ 
+ tech_st_astro_mech:0 "Astromech Droids"
+ tech_st_astro_mech_desc:0 "New developed astromech droids, designed to work in and around space vessels as a diagnostic and repair unit."
+ 
+ tech_st_barrels:0 "New Barrels"
+ tech_st_barrels_desc:0 "New barrel type enhanced with the energy boosting mineral Mirkanite."
+ 
+ TECH_UNLOCK_TURBO_LASER_CHAIN_TITLE:0 "§ETurbolaser Research Chain§!"
+ TECH_UNLOCK_TURBO_LASER_CHAIN_DESC:0 "Researching the technologies in this research chain will unlock the Turbolaser weapons"
+
+ TECH_UNLOCK_QUAD_LASER_CHAIN_TITLE:0 "§EQuad Turbolaser Research Chain§!"
+ TECH_UNLOCK_QUAD_LASER_CHAIN_DESC:0 "Researching the technologies in this research chain will unlock the Quadturbolaser weapons"
+ 
+ TECH_UNLOCK_OCTUPLE_LASER_CHAIN_TITLE:0 "§EOctuple Turbolaser Research Chain§!"
+ TECH_UNLOCK_OCTUPLE_LASER_CHAIN_DESC:0 "Researching the technologies in this research chain will unlock the Octupleturbolaser weapons"
+
+ ##############
+ # Superlaser
+ ##############
+ 
+ tech_sw_death_plans:0 "Death Star Plans"
+ tech_sw_death_plans_desc:0 "The idea for the Death Star began when the Confederacy of Independent Systems designed the Ultimate Weapon, using plans and concepts provided by Wilhuff Tarkin."
+ 
+ tech_sw_kyber_crystal:0 "Kyber Crystals"
+ tech_sw_kyber_crystal_desc:0 "Kyber crystals, also called the living crystal or simply the kyber, and known as kaiburr crystals in ancient times, were rare, Force-attuned crystals that grew in nature and were found on scattered planets across the galaxy. They are used by the Jedi and the Sith in the construction of their lightsabers."
+ 
+ tech_conq_laser:0 "Conqueror Superlaser"
+ tech_conq_laser_desc:0 "The superlaser component of the Star Destroyer is constructed at an Imperial research facility on Naboo under the supervision of the Imperial storm commandos. It is projected that the superlaser on the Conqueror, when properly installed, will give the Star Destroyer the ability to break apart a small moon, or crack a continent in half."
+ 
+ TECH_UNLOCK_SUPERLASER_CHAIN_TITLE:0 "§ESuperlaser Research Chain§!"
+ TECH_UNLOCK_SUPERLASER_CHAIN_DESC:0 "Researching the technologies in this research chain will unlock the Superlaser weapon"
+ 
+ #######
+ #Ion Cannon Chain
+ #######
+
+ tech_st_ionizing:0 "Ionized Particles "
+ tech_st_ionizing_desc:0 "New development in ionized particles, allowed us to develope a new kind of ship- based weaponery"
+ 
+ tech_st_ion_comp:0 "Ion Components"
+ tech_st_ion_comp_desc:0 "Newly developed component parts such as ion tube, turbine generator, cooling grid and targeting computers will let us build better ion cannons" 
+
+ TECH_UNLOCK_ION_CANNON_CHAIN_TITLE:0 "§EIon Cannon Research Chain§!"
+ TECH_UNLOCK_ION_CANNON_CHAIN_DESC:0 "Researching the technologies in this research chain will unlock the Ion Cannon weapons"
+ 
+ ######
+ #Disruptor Turbo chain
+ ######
+
+ tech_st_agent:0 "New Agent Agency"
+ tech_st_agent_desc:0 "A newly build agency to deal with the increasing black markets"
+ 
+ tech_st_black_market:0 "Black Markets"
+ tech_st_black_market_desc:0 "The new agency already made some succes, in lifting black markets on our planets"
+ 
+ tech_st_zann_con:0 "Zann Consortium"
+ tech_st_zann_con_desc:0 "Our agents lifted a high secruity vault from the Zann Consortium and found illegal developed weapons technology"
+ 
+ TECH_UNLOCK_DISRUPTOR_CHAIN_TITLE:0 "§EDisruptor Research Chain§!"
+ TECH_UNLOCK_DISRUPTOR_CHAIN_DESC:0 "Researching the technologies in this research chain will unlock the Disruptor weapons"
+ 
+ ######
+ #Missile Techs
+ ######
+ 
+ tech_small_concussion:0 "Small Concussion Missile"
+ tech_small_concussion_desc:0 "A concussion missile is a general short- to medium-range, anti-vehicle ordnance produced by many manufacturers from across the galaxy, one of the most notable being Dymek."
+ 
+ tech_medium_concussion:0 "Medium Concussion Missile"
+ tech_medium_concussion_desc:0 "Bigger version of concussion missiles, used on all kinds of ships."
+ 
+ tech_heavy_concussion:0 "Heavy Concussion Missile"
+ tech_heavy_concussion_desc:0 "A capital ship-grade ordnance used for planetary bombardment and anti-capital ship duties."
+ 
+ tech_assault_concussion:0 "Assault Concussion Missile"
+ tech_assault_concussion_desc:0 "These heavy missiles were primarily used for planetary bombardment and anti-capital ship duty, and were typically carried aboard heavy warships such as destroyers like the Victory I-class Star Destroyer and Nebula-class Star Destroyer."
+ 
+ tech_ion_pulse_missile:0 "Ion Pulse Missile"
+ tech_ion_pulse_missile_desc:0 "Ion pulse missiles are warheads designed to disable craft in a similar way to Ion cannons or Conner nets. More comprehensive in their effect than Mag pulse warheads, which simply knocked out weapons systems."
+ 
+ tech_ion_pulse_missile_2:0 "Ion Pulse Missile II"
+ tech_ion_pulse_missile_2_desc:0 "Better Ion Pulse Missile version, that yields more power and better navigation systems."
+ 
+ TECH_UNLOCK_CONCUSSION_CHAIN_TITLE:0 "§EConcussion Missile Research Chain§!"
+ TECH_UNLOCK_CONCUSSION_CHAIN_DESC:0 "Researching the technologies in this research chain will unlock the Concussion Missile weapons"
+ 
+ # ###################################
+ # Engineering - Weapons
+ # ###################################
+
+ # Turbolaser Branch
+ tech_light_turbo:0 "Light Turbolaser"
+ tech_light_turbo_desc:0 "The first shipsized turbolaser weapon, turbolaser fire intense blasts of energy at their target. Using high-energy gas as ammunition, activated by a power cell and converted into plasma.\n\n"
+ 
+ tech_turbo_laser:0 "Turbolaser"
+ tech_turbo_laser_desc:0 "Turbolasers are a more powerful version of the early light turbolasers, using galven coils to rapidly accelerate gas towards targets.\n\n"
+ 
+ tech_medium_turbo:0 "Medium Turbolaser"
+ tech_medium_turbo_desc:0 "The latest in electromagnetic accelerators, medium turbolasers use twin parallel barrels to fire gas at incredible speed.\n\n"
+ 
+ tech_heavy_turbo:0 "Heavy Turbolaser"
+ tech_heavy_turbo_desc:0 "A new version of the venerable turbolaser, with sturdier rails and an enhanced power supply. These weapons are even more powerful and accurate than their predecessors.\n\n"
+ 
+ tech_veryheavy_turbo:0 "Very Heavy Turbolaser"
+ tech_veryheavy_turbo_desc:0 "This updated version of the old turbolaser design is even more destructive than the latest heavy turbolaser design. It is capable of launching high energy gas with incredible accuracy and speed.\n\n"
+ 
+ tech_quad_turbo_1:0 "Quad Turbolaser"
+ tech_quad_turbo_1_desc:0 "It consisted of four laser cannons which can be fired alternately in pairs or individualy in rapid succession. They are very powerful compared to other ship-mounted weapons with the same size.\n\n"
+ 
+ tech_quad_turbo_2:0 "Quad Turbolaser II"
+ tech_quad_turbo_2_desc:0 "Equipped with a new barrel and an upgraded fire control computer.\n\n"
+ 
+ tech_quad_turbo_3:0 "Quad Turbolaser III"
+ tech_quad_turbo_3_desc:0 "New energy supply and AI control, for allowing higher firerate and range.\n\n"
+ 
+ tech_octuple_turbo_1:0 "Octuple Turbolaser MK I"
+ tech_octuple_turbo_1_desc:0 "Very long-range Turbolaser capable of hurling intense energy particles over extreme distances.\n\n"
+ 
+ tech_octuple_turbo_2:0 "Octuple Turbolaser MK II"
+ tech_octuple_turbo_2_desc:0 "Equipped with a new energy supply and an upgraded cooling system.\n\n"
+ 
+ tech_st_disruptor_1:0 "Disruptor I"
+ tech_st_disruptor_1_desc:0 "When fired upon a biological target, the victim will be disintegrated atom by atom, resulting in a slow, painful death.\n\n"
+ 
+ tech_st_disruptor_2:0 "Disruptor II"
+ tech_st_disruptor_2_desc:0 "Higher developed, illegal disruptor weapons, found in the latest black market raid.\n\n"
+ 
+ tech_st_disruptor_3:0 "Disruptor III"
+ tech_st_disruptor_3_desc:0 "New weapon design, found in the Zann Consortiums vault.\n\n"
+ 
+ tech_agrocite_enhancement:0 "Agrocite Enhancement"
+ tech_agrocite_enhancement_desc:0 "Enhances all turbolaser with the energy boosting mineral Agrocite.\n\n"
+ 
+ tech_coolant_enhancement:0 "Coolant Enhancement"
+ tech_coolant_enhancement_desc:0 "A new coolant, is used to reduce the overheat risk, allowing higher firerate.\n\n"
+ 
+ # Component set green
+ 
+ BLASTER_1:0 "Blaster Laser"
+ BLASTER_1_DESC:0 "Experimental space weapon"
+ 
+ LIGHT_TURBO_1_G:0 "Light Turbolaser Green"
+ LIGHT_TURBO_1_G_DESC:0 "The first shipsized Turbolaser weapon, Turbolaser fire intense blasts of energy at their target. Use high-energy gas as ammunition, activated by a power cell and converted into plasma.\n\n"
+ 
+ TURBO_LASER_2_G:0 "Turbolaser Green"
+ TURBO_LASER_2_G_DESC:0 "Turbolasers are a more powerful version of the early light turbolasers, using galven coils to rapidly accelerate gas towards targets.\n\n"
+ 
+ MEDIUM_TURBO_3_G:0 "Medium Turbolaser Green"
+ MEDIUM_TURBO_3_G_DESC:0 "The latest in electromagnetic accelerators, medium turbolasers use twin parallel rails to fire gas at incredible speeds\n\n"
+ 
+ HEAVY_TURBO_4_G:0 "Heavy Turbolaser Green"
+ HEAVY_TURBO_4_G_DESC:0 "A new version of the venerable turbolaser, with sturdier rails and an enhanced power supply. These weapons are even more powerful and accurate than their predecessors.\n\n"
+ 
+ VERYHEAVY_TURBO_5_G:0 "Very Heavy Turbolaser Green"
+ VERYHEAVY_TURBO_5_G_DESC:0 "This updated version of the old turbolaser design is even more destructive than the latest heavy turbolaser design. It is capable of launching high energy gas with incredible accuracy and speed.\n\n"
+ 
+ SPACEPORT_TURBO_LASER_G:0 "Spaceport Turbolaser Green"
+ SPACEPORT_TURBO_LASER_G_DESC:1 "Spaceport-mounted turbolasers, while of an older design, pack a considerable punch even when compared to their ship-mounted brethren.\n\n"
+ 
+ FLAK_QUAD_TURBO_1_G:0 "Flak Quad Laser Green"
+ FLAK_QUAD_TURBO_1_G_DESC:0 "It consisted of four laser cannons which can be fired individualy in rapid succession.\n\n"
+ 
+ FLAK_QUAD_TURBO_2_G:0 "Flak Quad Laser II Green"
+ FLAK_QUAD_TURBO_2_G_DESC:0 "Equipped with a new barrel and an upgraded fire control computer.\n\n"
+ 
+ QUAD_TURBO_1_G:0 "Quad Turbolaser Green"
+ QUAD_TURBO_1_G_DESC:0 "It consisted of four laser cannons which can be fired alternately in pairs or individualy in rapid succession. They are very powerful compared to other ship-mounted weapons with the same size.\n\n"
+ 
+ QUAD_TURBO_2_G:0 "Quad Turbolaser II Green"
+ QUAD_TURBO_2_G_DESC:0 "Equipped with a new barrel and an upgraded fire control computer.\n\n"
+ 
+ QUAD_TURBO_3_G:0 "Quad Turbolaser III Green"
+ QUAD_TURBO_3_G_DESC:0 "New energy supply and AI control, allowing for higher firerate and range.\n\n"
+ 
+ OCTUPLE_TURBO_1_G:0 "Octuple Turbolaser MK I Green"
+ OCTUPLE_TURBO_1_G_DESC:0 "Very long-range Turbolaser capable of hurling intense energy particles over extreme distances.\n\n"
+ 
+ OCTUPLE_TURBO_2_G:0 "Octuple Turbolaser MK II Green"
+ OCTUPLE_TURBO_2_G_DESC:0 "Equipped with a new energy supply and an upgraded cooling system.\n\n"
+ 
+ SW_SUPERLASER:0 "Conqueror Superlaser"
+ SW_SUPERLASER_DESC:0 "Smaller Death Star superlaser weapon, for the Conqueror ISD"
+ 
+ # Component parts green
+ 
+ SMALL_BLASTER_1:0 "Small Blaster"
+ 
+ SMALL_LIGHT_TURBO_1_G:0 "Small Light Turbolaser Green"
+ MEDIUM_LIGHT_TURBO_1_G:0 "Medium Light Turbolaser Green"
+ LARGE_LIGHT_TURBO_1_G:0 "Large Light Turbolaser Green"
+ 
+ SMALL_TURBO_LASER_2_G:0 "Small Turbolaser Green"
+ MEDIUM_TURBO_LASER_2_G:0 "Medium Turbolaser Green"
+ LARGE_TURBO_LASER_2_G:0 "Large Turbolaser Green"
+ 
+ SMALL_MEDIUM_TURBO_3_G:0 "Small Medium Turbolaser Green"
+ MEDIUM_MEDIUM_TURBO_3_G:0 "Medium Medium Turbolaser Green"
+ LARGE_MEDIUM_TURBO_3_G:0 "Large Medium Turbolaser Green"
+
+ SMALL_HEAVY_TURBO_4_G:0 "Small Heavy Turbolaser Green"
+ MEDIUM_HEAVY_TURBO_4_G:0 "Medium Heavy Turbolaser Green" 
+ LARGE_HEAVY_TURBO_4_G:0 "Large Heavy Turbolaser Green"
+ 
+ SMALL_VERYHEAVY_TURBO_5_G:0 "Small Very Heavy Turbolaser Green"
+ MEDIUM_VERYHEAVY_TURBO_5_G:0 "Medium Very Heavy Turbolaser Green"
+ LARGE_VERYHEAVY_TURBO_5_G:0 "Large Very Heavy Turbolaser Green"
+ 
+ M_FLAK_QUAD_TURBO_1_G:0 "Medium Flak Quad Laser Green"
+ M_FLAK_QUAD_TURBO_2_G:0 "Medium Flak Quad Laser II Green"
+ 
+ SMALL_QUAD_TURBO_1_G:0 "Small Quad Turbolaser Green"
+ MEDIUM_QUAD_TURBO_1_G:0 "Medium Quad Turbolaser Green"
+ LARGE_QUAD_TURBO_1_G:0 "Large Quad Turbolaser Green"
+ 
+ SMALL_QUAD_TURBO_2_G:0 "Small Quad Turbolaser II Green"
+ MEDIUM_QUAD_TURBO_2_G:0 "Medium Quad Turbolaser II Green"
+ LARGE_QUAD_TURBO_2_G:0 "Large Quad Turbolaser II Green"
+ 
+ SMALL_QUAD_TURBO_3_G:0 "Small Quad Turbolaser III Green"
+ MEDIUM_QUAD_TURBO_3_G:0 "Medium Quad Turbolaser III Green"
+ LARGE_QUAD_TURBO_3_G:0 "Large Quad Turbolaser III Green"
+ 
+ LARGE_OCTUPLE_TURBO_1_G:0 "Octuple Turbolaser MK I Green"
+ LARGE_OCTUPLE_TURBO_2_G:0 "Octuple Turbolaser MK II Green"
+ 
+ SMALL_SPACEPORT_TURBO_LASER_G:0 "Small Spaceport Turbolaser Green"
+ MEDIUM_SPACEPORT_TURBO_LASER_G:0 "Medium Spaceport Turbolaser Green"
+ LARGE_SPACEPORT_TURBO_LASER_G:0 "Large Spaceport Turbolaser Green"
+ 
+ SW_SUPERLASER:0 "Conqueror Superlaser"
+ 
+ # Component set red
+ LIGHT_TURBO_1_R:0 "Light Turbolaser Red"
+ LIGHT_TURBO_1_R_DESC:0 "The first shipsized Turbolaser weapon, Turbolaser fire intense blasts of energy at their target. Use high-energy gas as ammunition, activated by a power cell and converted into plasma.\n\n"
+ 
+ TURBO_LASER_2_R:0 "Turbolaser Red"
+ TURBO_LASER_2_R_DESC:0 "Turbolasers are a more powerful version of the early light turbolasers, using galven coils to rapidly accelerate gas towards targets.\n\n"
+ 
+ MEDIUM_TURBO_3_R:0 "Medium Turbolaser Red"
+ MEDIUM_TURBO_3_R_DESC:0 "The latest in electromagnetic accelerators, medium turbolasers use twin parallel rails to fire gas at incredible speeds\n\n"
+ 
+ HEAVY_TURBO_4_R:0 "Heavy Turbolaser Red"
+ HEAVY_TURBO_4_R_DESC:0 "A new version of the venerable turbolaser, with sturdier rails and an enhanced power supply. These weapons are even more powerful and accurate than their predecessors.\n\n"
+ 
+ VERYHEAVY_TURBO_5_R:0 "Very Heavy Turbolaser Red"
+ VERYHEAVY_TURBO_5_R_DESC:0 "This updated version of the old turbolaser design is even more destructive than the latest heavy turbolaser design. It is capable of launching high energy gas with incredible accuracy and speed.\n\n"
+ 
+ SPACEPORT_TURBO_LASER_R:0 "Spaceport Turbolaser Red"
+ SPACEPORT_TURBO_LASER_R_DESC:1 "Spaceport-mounted turbolasers, while of an older design, pack a considerable punch even when compared to their ship-mounted brethren.\n\n"
+ 
+ FLAK_QUAD_TURBO_2_R:0 "Flak Quad Laser II Red"
+ FLAK_QUAD_TURBO_2_R_DESC:0 "Equipped with a new barrel and an upgraded fire control computer.\n\n"
+ 
+ FLAK_QUAD_TURBO_1_R:0 "Flak Quad Laser Red"
+ FLAK_QUAD_TURBO_1_R_DESC:0 "It consisted of four laser cannons which can be fired individualy in rapid succession.\n\n"
+ 
+ QUAD_TURBO_1_R:0 "Quad Turbolaser Red"
+ QUAD_TURBO_1_R_DESC:0 "It consisted of four laser cannons which can be fired alternately in pairs or individualy in rapid succession. They are very powerful compared to other ship-mounted weapons with the same size.\n\n"
+ 
+ QUAD_TURBO_2_R:0 "Quad Turbolaser II Red"
+ QUAD_TURBO_2_R_DESC:0 "Equipped with a new barrel and an upgraded fire control computer.\n\n"
+ 
+ QUAD_TURBO_3_R:0 "Quad Turbolaser III Red"
+ QUAD_TURBO_3_R_DESC:0 "New energy supply and AI control, allowing for higher firerate and range.\n\n"
+ 
+ OCTUPLE_TURBO_1_R:0 "Octuple Turbolaser MK I Red"
+ OCTUPLE_TURBO_1_R_DESC:0 "Very long-range Turbolaser capable of hurling intense energy particles over extreme distances.\n\n"
+ 
+ OCTUPLE_TURBO_2_R:0 "Octuple Turbolaser MK II Red"
+ OCTUPLE_TURBO_2_R_DESC:0 "Equipped with a new energy supply and an upgraded cooling system.\n\n"
+ 
+ 
+ # Component parts red
+ SMALL_LIGHT_TURBO_1_R:0 "Small Light Turbolaser Red"
+ MEDIUM_LIGHT_TURBO_1_R:0 "Medium Light Turbolaser Red"
+ LARGE_LIGHT_TURBO_1_R:0 "Large Light Turbolaser Red"
+ 
+ SMALL_TURBO_LASER_2_R:0 "Small Turbolaser Red"
+ MEDIUM_TURBO_LASER_2_R:0 "Medium Turbolaser Red"
+ LARGE_TURBO_LASER_2_R:0 "Large Turbolaser Red"
+ 
+ SMALL_MEDIUM_TURBO_3_R:0 "Small Medium Turbolaser Red"
+ MEDIUM_MEDIUM_TURBO_3_R:0 "Medium Medium Turbolaser Red"
+ LARGE_MEDIUM_TURBO_3_R:0 "Large Medium Turbolaser Red"
+
+ SMALL_HEAVY_TURBO_4_R:0 "Small Heavy Turbolaser Red"
+ MEDIUM_HEAVY_TURBO_4_R:0 "Medium Heavy Turbolaser Red" 
+ LARGE_HEAVY_TURBO_4_R:0 "Large Heavy Turbolaser Red"
+ 
+ SMALL_VERYHEAVY_TURBO_5_R:0 "Small Very Heavy Turbolaser Red"
+ MEDIUM_VERYHEAVY_TURBO_5_R:0 "Medium Very Heavy Turbolaser Red"
+ LARGE_VERYHEAVY_TURBO_5_R:0 "Large Very Heavy Turbolaser Red"
+ 
+ M_FLAK_QUAD_TURBO_1_R:0 "Medium Flak Quad Laser Red"
+ M_FLAK_QUAD_TURBO_2_R:0 "Medium Flak Quad Laser II Red"
+ 
+ SMALL_QUAD_TURBO_1_R:0 "Small Quad Turbolaser Red"
+ MEDIUM_QUAD_TURBO_1_R:0 "Medium Quad Turbolaser Red"
+ LARGE_QUAD_TURBO_1_R:0 "Large Quad Turbolaser Red"
+ 
+ SMALL_QUAD_TURBO_2_R:0 "Small Quad Turbolaser II Red"
+ MEDIUM_QUAD_TURBO_2_R:0 "Medium Quad Turbolaser II Red"
+ LARGE_QUAD_TURBO_2_R:0 "Large Quad Turbolaser II Red"
+ 
+ SMALL_QUAD_TURBO_3_R:0 "Small Quad Turbolaser III Red"
+ MEDIUM_QUAD_TURBO_3_R:0 "Medium Quad Turbolaser III Red"
+ LARGE_QUAD_TURBO_3_R:0 "Large Quad Turbolaser III Red"
+ 
+ LARGE_OCTUPLE_TURBO_1_R:0 "Octuple Turbolaser MK I Red"
+ LARGE_OCTUPLE_TURBO_2_R:0 "Octuple Turbolaser MK II Red"
+ 
+ SMALL_SPACEPORT_TURBO_LASER_R:0 "Small Spaceport Turbolaser Red"
+ MEDIUM_SPACEPORT_TURBO_LASER_R:0 "Medium Spaceport Turbolaser Red"
+ LARGE_SPACEPORT_TURBO_LASER_R:0 "Large Spaceport Turbolaser Red"
+ 
+ # Component set blue
+ LIGHT_TURBO_1_B:0 "Light Turbolaser Blue"
+ LIGHT_TURBO_1_B_DESC:0 "The first shipsized Turbolaser weapon, Turbolaser fire intense blasts of energy at their target. Use high-energy gas as ammunition, activated by a power cell and converted into plasma.\n\n"
+ 
+ TURBO_LASER_2_B:0 "Turbolaser Blue"
+ TURBO_LASER_2_B_DESC:0 "Turbolasers are a more powerful version of the early light turbolasers, using galven coils to rapidly accelerate gas towards targets.\n\n"
+ 
+ MEDIUM_TURBO_3_B:0 "Medium Turbolaser Blue"
+ MEDIUM_TURBO_3_B_DESC:0 "The latest in electromagnetic accelerators, medium turbolasers use twin parallel rails to fire gas at incredible speeds\n\n"
+ 
+ HEAVY_TURBO_4_B:0 "Heavy Turbolaser Blue"
+ HEAVY_TURBO_4_B_DESC:0 "A new version of the venerable turbolaser, with sturdier rails and an enhanced power supply. These weapons are even more powerful and accurate than their predecessors.\n\n"
+ 
+ VERYHEAVY_TURBO_5_B:0 "Very Heavy Turbolaser Blue"
+ VERYHEAVY_TURBO_5_B_DESC:0 "This updated version of the old turbolaser design is even more destructive than the latest heavy turbolaser design. It is capable of launching high energy gas with incredible accuracy and speed.\n\n"
+ 
+ SPACEPORT_TURBO_LASER_B:0 "Spaceport Turbolaser Blue"
+ SPACEPORT_TURBO_LASER_B_DESC:1 "Spaceport-mounted turbolasers, while of an older design, pack a considerable punch even when compared to their ship-mounted brethren.\n\n"
+ 
+ QUAD_TURBO_1_B:0 "Quad Turbolaser Blue"
+ QUAD_TURBO_1_B_DESC:0 "It consisted of four laser cannons which can be fired alternately in pairs or individualy in rapid succession. They are very powerful compared to other ship-mounted weapons with the same size.\n\n"
+ 
+ FLAK_QUAD_TURBO_1_B:0 "Flak Quad Laser Blue"
+ FLAK_QUAD_TURBO_1_B_DESC:0 "It consisted of four laser cannons which can be fired individualy in rapid succession.\n\n"
+ 
+ FLAK_QUAD_TURBO_2_B:0 "Flak Quad Laser II Blue"
+ FLAK_QUAD_TURBO_2_B_DESC:0 "Equipped with a new barrel and an upgraded fire control computer.\n\n"
+ 
+ QUAD_TURBO_2_B:0 "Quad Turbolaser II Blue"
+ QUAD_TURBO_2_B_DESC:0 "Equipped with a new barrel and an upgraded fire control computer.\n\n"
+ 
+ QUAD_TURBO_3_B:0 "Quad Turbolaser III Blue"
+ QUAD_TURBO_3_B_DESC:0 "New energy supply and AI control, allowing for higher firerate and range.\n\n"
+ 
+ OCTUPLE_TURBO_1_B:0 "Octuple Turbolaser MK I Blue"
+ OCTUPLE_TURBO_1_B_DESC:0 "Very long-range Turbolaser capable of hurling intense energy particles over extreme distances.\n\n"
+ 
+ OCTUPLE_TURBO_2_B:0 "Octuple Turbolaser MK II Blue"
+ OCTUPLE_TURBO_2_B_DESC:0 "Equipped with a new energy supply and an upgraded cooling system.\n\n"
+ 
+ # Component parts blue
+ SMALL_LIGHT_TURBO_1_B:0 "Small Light Turbolaser Blue"
+ MEDIUM_LIGHT_TURBO_1_B:0 "Medium Light Turbolaser Blue"
+ LARGE_LIGHT_TURBO_1_B:0 "Large Light Turbolaser Blue"
+ 
+ SMALL_TURBO_LASER_2_B:0 "Small Turbolaser Blue"
+ MEDIUM_TURBO_LASER_2_B:0 "Medium Turbolaser Blue"
+ LARGE_TURBO_LASER_2_B:0 "Large Turbolaser Blue"
+ 
+ SMALL_MEDIUM_TURBO_3_B:0 "Small Medium Turbolaser Blue"
+ MEDIUM_MEDIUM_TURBO_3_B:0 "Medium Medium Turbolaser Blue"
+ LARGE_MEDIUM_TURBO_3_B:0 "Large Medium Turbolaser Blue"
+
+ SMALL_HEAVY_TURBO_4_B:0 "Small Heavy Turbolaser Blue"
+ MEDIUM_HEAVY_TURBO_4_B:0 "Medium Heavy Turbolaser Blue" 
+ LARGE_HEAVY_TURBO_4_B:0 "Large Heavy Turbolaser Blue"
+ 
+ SMALL_VERYHEAVY_TURBO_5_B:0 "Small Very Heavy Turbolaser Blue"
+ MEDIUM_VERYHEAVY_TURBO_5_B:0 "Medium Very Heavy Turbolaser Blue"
+ LARGE_VERYHEAVY_TURBO_5_B:0 "Large Very Heavy Turbolaser Blue"
+ 
+ M_FLAK_QUAD_TURBO_1_B:0 "Medium Flak Quad Laser Blue"
+ M_FLAK_QUAD_TURBO_2_B:0 "Medium Flak Quad Laser II Blue"
+ 
+ SMALL_QUAD_TURBO_1_B:0 "Small Quad Turbolaser Blue"
+ MEDIUM_QUAD_TURBO_1_B:0 "Medium Quad Turbolaser Blue"
+ LARGE_QUAD_TURBO_1_B:0 "Large Quad Turbolaser Blue"
+ 
+ SMALL_QUAD_TURBO_2_B:0 "Small Quad Turbolaser II Blue"
+ MEDIUM_QUAD_TURBO_2_B:0 "Medium Quad Turbolaser II Blue"
+ LARGE_QUAD_TURBO_2_B:0 "Large Quad Turbolaser II Blue"
+ 
+ SMALL_QUAD_TURBO_3_B:0 "Small Quad Turbolaser III Blue"
+ MEDIUM_QUAD_TURBO_3_B:0 "Medium Quad Turbolaser III Blue"
+ LARGE_QUAD_TURBO_3_B:0 "Large Quad Turbolaser III Blue"
+ 
+ LARGE_OCTUPLE_TURBO_1_B:0 "Octuple Turbolaser MK I Blue"
+ LARGE_OCTUPLE_TURBO_2_B:0 "Octuple Turbolaser MK II Blue"
+ 
+ SMALL_SPACEPORT_TURBO_LASER_B:0 "Small Spaceport Turbolaser Blue"
+ MEDIUM_SPACEPORT_TURBO_LASER_B:0 "Medium Spaceport Turbolaser Blue"
+ LARGE_SPACEPORT_TURBO_LASER_B:0 "Large Spaceport Turbolaser Blue"
+ 
+ 
+ # Planet View
+ 
+ sm_turbolaser_weapon:0 "Turbolaser Defense Module"
+ sm_turbolaser_weapon_desc:0 "§EThe §HSpaceport§! is equipped with a heavy armament of §HTurbolaser§! weapons as its main defense. Advances in Turbolaser technology will increase the damage of these weapons.§!"
+
+ ####################################
+ # Disruptor
+ ####################################
+ 
+ #component list
+ DISRUPTOR_1_P:0 "Disruptor MK I"
+ DISRUPTOR_1_P_DESC:0 "When fired upon a biological target, the victim will be disintegrated atom by atom, resulting in a slow, painful death.\n\n"
+ 
+ DISRUPTOR_2_P:0 "Disruptor MK II"
+ DISRUPTOR_2_P_DESC:0 "Higher developed, illegal disruptor weapons, found in the latest black market raid.\n\n"
+ 
+ DISRUPTOR_3_P:0 "Disruptor MK III"
+ DISRUPTOR_3_P_DESC:0 "New weapon designs, found in the Zann Consortiums vault.\n\n"
+ 
+ 
+ #component parts
+ 
+ MEDIUM_DISRUPTOR_1_P:0 "Medium Disruptor MK I"
+ LARGE_DISRUPTOR_1_P:0 "Large Disruptor MK I"
+ 
+ MEDIUM_DISRUPTOR_2_P:0 "Medium Disruptor MK II"
+ LARGE_DISRUPTOR_2_P:0 "Large Disruptor MK II"
+ 
+ MEDIUM_DISRUPTOR_3_P:0 "Medium Disruptor MK III"
+ LARGE_DISRUPTOR_3_P:0 "Large Disruptor MK III"
+ 
+ 
+ 
+ 
+ ####################################
+ # Physic - Weapons
+ ####################################
+
+ # Ion Cannon Branch
+ tech_ion_cannon_1:0 "Light Ion Cannon"
+ tech_ion_cannon_1_desc:0 "Ion cannons fire ionized particles that disrupt electronic and shield systems.\n\n"
+ 
+ tech_ion_cannon_2:0 "Medium Ion Cannon"
+ tech_ion_cannon_2_desc:0 "New design with higher energy output and better accuracy.\n\n"
+
+ tech_ion_cannon_3:0 "Heavy Ion Cannon"
+ tech_ion_cannon_3_desc:0 "Latest design with new coils, upgraded fire control and higher speed.\n\n"
+ 
+ 
+ # Component list
+ ION_CANNON_1:0 "Light Ion Cannon"
+ ION_CANNON_1_DESC:0 "Ion cannons fire ionized particles that disrupt electronic and shield systems.\n\n"
+ 
+ ION_CANNON_2:0 "Medium Ion Cannon"
+ ION_CANNON_2_DESC:0 "New design with higher energy output and better accuracy.\n\n"
+ 
+ ION_CANNON_3:0 "Heavy Ion Cannon"
+ ION_CANNON_3_DESC:0 "Latest design with new coils, upgraded fire control and higher speed.\n\n"
+ 
+ # Component parts
+ 
+ SMALL_ION_CANNON_1:0 "Small Light Ion Cannon"
+ MEDIUM_ION_CANNON_1:0 "Medium Light Ion Cannon"
+ LARGE_ION_CANNON_1:0 "Large Light Ion Cannon"
+ 
+ SMALL_ION_CANNON_2:0 "Small Medium Ion Cannon"
+ MEDIUM_ION_CANNON_2:0 "Medium Medium Ion Cannon"
+ LARGE_ION_CANNON_2:0 "Large Medium Ion Cannon"
+ 
+ SMALL_ION_CANNON_3:0 "Small Heavy Ion Cannon"
+ MEDIUM_ION_CANNON_3:0 "Medium Heavy Ion Cannon"
+ LARGE_ION_CANNON_3:0 "Large Heavy Ion Cannon"
+ 
+ # Defence Turbo Branch
+ 
+ tech_defence_turbo_1:0 "Defence Turbolaser MK I"
+ tech_defence_turbo_1_desc:0 "Smaller turbolaser light version for defence against missiles, torpedos and fighter sized ships.\n\n"
+ 
+ tech_defence_turbo_2:0 "Defence Turbolaser MK II"
+ tech_defence_turbo_2_desc:0 "New design with higher accuracy and speed.\n\n"
+ 
+ tech_defence_turbo_3:0 "Defence Turbolaser MK III"
+ tech_defence_turbo_3_desc:0 "New barrels for higher energy output and armed with the latest firecontrol AI.\n\n"
+ 
+ # Component list green
+ 
+ DEFENCE_TURBO_1_G:0 "Defence Turbolaser MK I Green"
+ DEFENCE_TURBO_1_G_DESC:0 "Smaller turbolaser light version for defence against missiles, torpedos and fighter sized ships.\n\n"
+ 
+ DEFENCE_TURBO_2_G:0 "Defence Turbolaser MK II Green"
+ DEFENCE_TURBO_2_G_DESC:0 "New design with higher accuracy and speed.\n\n"
+ 
+ DEFENCE_TURBO_3_G:0 "Defence Turbolaser MK III Green"
+ DEFENCE_TURBO_3_G_DESC:0 "New barrels for higher energy output and armed with the latest firecontrol AI.\n\n"
+ 
+ # Component parts
+ 
+ DEFENCE_TURBO_1_G:0 "Defence Turbolaser MK I Green"
+ 
+ DEFENCE_TURBO_2_G:0 "Defence Turbolaser MK II Green"
+ 
+ DEFENCE_TURBO_3_G:0 "Defence Turbolaser MK III Green"
+ 
+ # Component list red
+ 
+ DEFENCE_TURBO_1_R:0 "Defence Turbolaser MK I Red"
+ DEFENCE_TURBO_1_R_DESC:0 "Smaller turbolaser light version for defence against missiles, torpedos and fighter sized ships.\n\n"
+ 
+ DEFENCE_TURBO_2_R:0 "Defence Turbolaser MK II Red"
+ DEFENCE_TURBO_2_R_DESC:0 "New design with higher accuracy and speed.\n\n"
+ 
+ DEFENCE_TURBO_3_R:0 "Defence Turbolaser MK III Red"
+ DEFENCE_TURBO_3_R_DESC:0 "New barrels for higher energy output and armed with the latest firecontrol AI.\n\n"
+ 
+ # Component parts
+ 
+ DEFENCE_TURBO_1_R:0 "Defence Turbolaser MK I Red"
+ 
+ DEFENCE_TURBO_2_R:0 "Defence Turbolaser MK II Red"
+ 
+ DEFENCE_TURBO_3_R:0 "Defence Turbolaser MK III Red"
+ 
+ # Component list blue
+ 
+ DEFENCE_TURBO_1_B:0 "Defence Turbolaser MK I Blue"
+ DEFENCE_TURBO_1_B_DESC:0 "Smaller turbolaser light version for defence against missiles, torpedos and fighter sized ships.\n\n"
+ 
+ DEFENCE_TURBO_2_B:0 "Defence Turbolaser MK II Blue"
+ DEFENCE_TURBO_2_B_DESC:0 "New design with higher accuracy and speed.\n\n"
+ 
+ DEFENCE_TURBO_3_B:0 "Defence Turbolaser MK III Blue"
+ DEFENCE_TURBO_3_B_DESC:0 "New barrels for higher energy output and armed with the latest firecontrol AI.\n\n"
+ 
+ # Component parts
+ 
+ DEFENCE_TURBO_1_B:0 "Defence Turbolaser MK I Blue"
+ 
+ DEFENCE_TURBO_2_B:0 "Defence Turbolaser MK II Blue"
+ 
+ DEFENCE_TURBO_3_B:0 "Defence Turbolaser MK III Blue"
+ 
+ # Component tags
+ 
+ weapon_type_turbo_laser:0 "§YTurbolaser§!"
+ weapon_type_ion_cannon:0 "§YIon Cannon§!"
+
+ weapon_role_anti_ship:0 "§YAnti-Ship§!"
+ 
+ weapon_type_turbo_laser_weapon_damage_mult:0 "Turbolaser Weapon Damage"
+ weapon_type_turbo_laser_weapon_fire_rate_mult:0 "Turbolaser Weapon Firerate"
+ 
+ # Repeatable Tech
+ 
+ tech_repeatable_weapon_type_turbo_laser_damage:0 "Tibanna Gas Compressors"
+ tech_repeatable_weapon_type_turbo_laser_damage_desc:0 "Compression allows the Turbolaser blast to pass through more Tibanna Gas, increasing the damage output.\n\n"
+ 
+ tech_repeatable_weapon_type_turbo_laser_fire_rate:0 "Tibanna Gas Injectors"
+ tech_repeatable_weapon_type_turbo_laser_fire_rate_desc:0 "New Injectors allow a higher Tibanna Gas injection into the shots, increasing firerate.\n\n"
+ 
+ 
+ ###########
+ #Concussion Missiles
+ ###########
+ 
+ #Component set 
+ 
+ SMALL_CONCUSSION:0 "Small Concussion Missile"
+ SMALL_CONCUSSION_DESC:0 "A concussion missile is a general short- to medium-range, anti-vehicle ordnance.\n\n"
+ 
+ MEDIUM_CONCUSSION:0 "Medium Concussion Missile"
+ MEDIUM_CONCUSSION_DESC:0 "Bigger version of concussion missiles, used on all kinds of ships.\n\n"
+ 
+ HEAVY_CONCUSSION:0 "Heavy Concussion Missile"
+ HEAVY_CONCUSSION_DESC:0 "A capital ship-grade ordnance used for anti-capital ship duties.\n\n"
+ 
+ ASSAULT_CONCUSSION:0 "Assault Concussion Missile"
+ ASSAULT_CONCUSSION_DESC:0 "These heavy missiles were primarily used for planetary bombardment and anti-capital ship duty.\n\n"
+ 
+ ION_PULSE:0 "Ion Pulse Missile"
+ ION_PULSE_DESC:0 "Ion pulse missiles are warheads designed to disable craft in a similar way to Ion cannons or Conner nets.\n\n"
+ 
+ ION_PULSE_2:0 "Ion Pulse Missile II"
+ ION_PULSE_2_DESC:0 "Better Ion Pulse Missile version, that yields more power and better navigation systems.\n\n"
+ 
+ 
+ #Component template
+ 
+ SMALL_S_CONCUSSION:0 "Small S Concussion Missile"
+ MEDIUM_S_CONCUSSION:0 "Medium S Concussion Missile"
+ 
+ SMALL_M_CONCUSSION:0 "Small M Concussion Missile"
+ MEDIUM_M_CONCUSSION:0 "Medium M Concussion Missile"
+ LARGE_M_CONCUSSION:0 "Large M Concussion Missile"
+ 
+ MEDIUM_H_CONCUSSION:0 "Medium H Concussion Missile"
+ LARGE_H_CONCUSSION:0 "Large H Concussion Missile"
+ 
+ SMALL_A_CONCUSSION:0 "Small Assault Concussion Missile"
+ MEDIUM_A_CONCUSSION:0 "Medium Assault Concussion Missile"
+ LARGE_A_CONCUSSION:0 "Large Assault Concussion Missile"
+ 
+ SMALL_IONPULSE:0 "Small Ion Pulse Missile"
+ MEDIUM_IONPULSE:0 "Medium Ion Pulse Missile"
+ LARGE_IONPULSE:0 "Large Ion Pulse Missile"
+ 
+ SMALL_IONPULSE_2:0 "Small Ion Pulse II Missile"
+ MEDIUM_IONPULSE_2:0 "Medium Ion Pulse II Missile"
+ LARGE_IONPULSE_2:0 "Large Ion Pulse II Missile"
+ 
+ 
+ 
+ 
+ 
+ 

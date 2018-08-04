@@ -1,0 +1,176 @@
+# Ionen Cannon Light
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "ion_cannon_1_s"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "ion_cannon_1_small_hit_entity"
+	shield_hit_entity = "ion_cannon_1_small_shield_hit_entity"
+	muzzle_flash_entity = "ion_cannon_1_small_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "ion_cannon_1_small_entity"
+	speed = 550.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "ion_cannon_1_m"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "ion_cannon_1_medium_hit_entity"
+	shield_hit_entity = "ion_cannon_1_medium_shield_hit_entity"
+	muzzle_flash_entity = "ion_cannon_1_medium_muzzle_entity"
+	
+	shield_impact = {
+		size = medium
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "ion_cannon_1_medium_entity"
+	speed = 550.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "ion_cannon_1_l"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "ion_cannon_1_large_hit_entity"
+	shield_hit_entity = "ion_cannon_1_large_shield_hit_entity"
+	muzzle_flash_entity = "ion_cannon_1_large_muzzle_entity"
+	
+	shield_impact = {
+		size = large
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "ion_cannon_1_large_entity"
+	speed = 550.0			#preferred speed of the projectile
+	max_duration = 2.0 		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# Ionen Cannon Medium
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "ion_cannon_2_s"
+	color = {  1.0 	1.0 	1.0		1.0  }
+	hit_entity = "ion_cannon_2_small_hit_entity"
+	shield_hit_entity = "ion_cannon_2_small_shield_hit_entity"
+	muzzle_flash_entity = "ion_cannon_2_small_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "ion_cannon_1_small_entity"
+	speed = 550.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "ion_cannon_2_m"
+	color = {  1.0 	1.0 	1.0		1.0  }
+	hit_entity = "ion_cannon_2_medium_hit_entity"
+	shield_hit_entity = "ion_cannon_2_medium_shield_hit_entity"
+	muzzle_flash_entity = "ion_cannon_2_medium_muzzle_entity"
+	
+	shield_impact = {
+		size = medium
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "ion_cannon_1_medium_entity"
+	speed = 550.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "ion_cannon_2_l"
+	color = { 1.0 	1.0 	1.0		1.0 }
+	hit_entity = "ion_cannon_2_large_hit_entity"
+	shield_hit_entity = "ion_cannon_2_large_shield_hit_entity"
+	muzzle_flash_entity = "ion_cannon_2_large_muzzle_entity"
+	
+	shield_impact = {
+		size = large
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "ion_cannon_1_large_entity"
+	speed = 550.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# Ionen Cannon Heavy
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "ion_cannon_3_s"
+	color = { 1.0 	1.0 	1.0		1.0 }
+	hit_entity = "ion_cannon_3_small_hit_entity"
+	shield_hit_entity = "ion_cannon_3_small_shield_hit_entity"
+	muzzle_flash_entity = "ion_cannon_3_small_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "ion_cannon_2_small_entity"
+	speed = 550.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "ion_cannon_3_m"
+	color = { 1.0 	1.0 	1.0		1.0 }
+	hit_entity = "ion_cannon_3_medium_hit_entity"
+	shield_hit_entity = "ion_cannon_3_medium_shield_hit_entity"
+	muzzle_flash_entity = "ion_cannon_3_medium_muzzle_entity"
+	
+	shield_impact = {
+		size = medium
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "ion_cannon_2_medium_entity"
+	speed = 550.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "ion_cannon_3_l"
+	color = { 1.0 	1.0 	1.0		1.0 }
+	hit_entity = "ion_cannon_3_large_hit_entity"
+	shield_hit_entity = "ion_cannon_3_large_shield_hit_entity"
+	muzzle_flash_entity = "ion_cannon_3_large_muzzle_entity"
+	
+	shield_impact = {
+		size = large
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "ion_cannon_2_large_entity"
+	speed = 550.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}

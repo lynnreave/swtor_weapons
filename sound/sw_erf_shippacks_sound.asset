@@ -1,0 +1,103 @@
+
+##########WEAPONS FIRE & HIT & DEATH############
+
+######
+# Empire Mod
+######
+
+##### CLOSE
+
+sound =
+{
+	name = "TIE_Laser_01"
+	file = "weapons/sw_TIE_Laser_1.wav"
+}
+sound =
+{
+	name = "TIE_Laser_02"
+	file = "weapons/sw_TIE_Laser_2.wav"
+}
+
+sound =
+{
+	name = "Slave1_Laser_01"
+	file = "weapons/sw_Slave1_laser_1.wav"
+}
+sound =
+{
+	name = "Slave1_Laser_hit_01"
+	file = "weapons/sw_Slave1_hit_1.wav"
+	
+}
+
+sound =
+{
+	name = "Empire_Anni_XL_gun"
+	file = "weapons/sw_Empire_01_Anni_XL_gun.wav"
+	
+}
+
+sound =
+{
+	name = "Empire_Anni_Large_gun"
+	file = "weapons/sw_Empire_01_Anni_Large_gun.wav"
+	
+}
+
+sound =
+{
+	name = "Empire_Anni_Quad_gun"
+	file = "weapons/sw_Empire_01_Anni_Quad_gun.wav"
+	
+}
+
+##### DISTANT
+
+
+
+######
+# Rebel Mod
+######
+
+##### CLOSE
+
+sound =
+{
+	name = "Z95_Laser_01"
+	file = "weapons/sw_Z95_laser_1.wav"
+}
+
+sound =
+{
+	name = "Falcon_Laser_01"
+	file = "weapons/sw_Falcon_laser_01.wav"
+}
+
+#########
+#Fractal Mod
+#########
+
+#####Close
+
+sound =
+{
+	name = "Fractal_Quad_01"
+	file = "weapons/sw_fractal_quad_01.wav"
+}
+
+sound =
+{
+	name = "Fractal_LTL_01"
+	file = "weapons/sw_fractal_LTL_01.wav"
+}
+
+##### Distant
+
+sound =
+{
+	name = "distant_sw_Fractal_Quad_01"
+	file = "weapons/distant_sw_fractal_quad_01.wav"
+}
+
+
+

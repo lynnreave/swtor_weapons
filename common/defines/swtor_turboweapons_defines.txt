@@ -1,0 +1,23 @@
+	
+	NGraphics = {
+		
+		MISSILE_HEIGHT_OFFSET		= 45.0	# how high up missiles will fly
+		MISSILE_ROTATION_RATE		= 0.6 # how fast missiles will adjust their rotation. High values can cause visible snaps each micro update
+
+		BALLISTIC_PROJECTILE_MISSED_LIFETIME = 1.0 # missed ballistic projectiles will live for (at least) this long before being removed
+
+		MISSILE_RANDOM_OFFSET_MIN_RADIUS = -70.0
+		MISSILE_RANDOM_OFFSET_MAX_RADIUS = 70.0
+
+		MAX_GFX_PROJECTILES = 1500
+		MAX_GFX_MISSILES = 600
+		MUZZLE_FLASH_LIMIT = 1000
+
+
+
+
+
+
+
+
+	}

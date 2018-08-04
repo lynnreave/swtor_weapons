@@ -1,0 +1,350 @@
+# Empire
+
+# PROJECTILE TIE Hangar
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "TIE_Strike_s_g"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "TIE_Strike_small_hit_entity"
+	shield_hit_entity = "TIE_Strike_small_shield_hit_entity"
+	muzzle_flash_entity = "TIE_Strike_small_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "TIE_Strike_g_small_entity"
+	speed = 200.0			#preferred speed of the projectile
+	max_duration = 1.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# PROJECTILE TIE Fighter
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "TIE_Fighter_s_g"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "TIE_Fighter_small_hit_entity"
+	shield_hit_entity = "TIE_Fighter_small_shield_hit_entity"
+	muzzle_flash_entity = "TIE_Fighter_small_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "TIE_Fighter_g_small_entity"
+	speed = 300.0			#preferred speed of the projectile
+	max_duration = 1.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# PROJECTILE Slave 1
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "Slave1_Patrol_s_r"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "Slave1_Patrol_small_hit_entity"
+	shield_hit_entity = "Slave1_Patrol_small_shield_hit_entity"
+	muzzle_flash_entity = "Slave1_Patrol_small_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "Slave1_Patrol_r_small_entity"
+	speed = 350.0			#preferred speed of the projectile
+	max_duration = 1.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# Annihilator XL Gun
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "Anni_XL_g"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "Empire_Anni_XL_large_hit_entity"
+	shield_hit_entity = "Empire_Anni_XL_large_shield_hit_entity"
+	muzzle_flash_entity = "Empire_Anni_XL_large_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "sw_Anni_green_XL_entity"
+	speed = 450.0			#preferred speed of the projectile
+	max_duration = 2.5		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# Annihilator Large Turret
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "Anni_TL_L_g"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "Empire_Anni_TL_large_hit_entity"
+	shield_hit_entity = "Empire_Anni_TL_large_shield_hit_entity"
+	muzzle_flash_entity = "Empire_Anni_TL_large_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "Empire_Anni_TL_green_large_entity"
+	speed = 400.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# Annihilator Medium Ball Turret
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "Anni_BTL_M_g"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "Empire_Anni_BTL_medium_hit_entity"
+	shield_hit_entity = "Empire_Anni_BTL_medium_shield_hit_entity"
+	muzzle_flash_entity = "Empire_Anni_BTL_medium_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "Empire_Anni_BTL_green_medium_entity"
+	speed = 400.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# Annihilator Medium Ion Ball
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "Anni_IBTL_M"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "Empire_Anni_Ion_medium_hit_entity"
+	shield_hit_entity = "Empire_Anni_Ion_medium_shield_hit_entity"
+	muzzle_flash_entity = "Empire_Anni_Ion_medium_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "Empire_Anni_Ion_medium_entity"
+	speed = 325.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+
+###########
+#Rebel Mod
+###########
+
+# PROJECTILE Rebel Fighter
+
+# Strike Hangar
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "Rebel_Strike_s_r"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "Rebel_Strike_small_hit_entity"
+	shield_hit_entity = "Rebel_Strike_small_shield_hit_entity"
+	muzzle_flash_entity = "Rebel_Strike_small_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "Rebel_Strike_r_small_entity"
+	speed = 200.0			#preferred speed of the projectile
+	max_duration = 1.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# Fighter
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "Z95_Fighter_s_r"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "Rebel_Fighter_small_hit_entity"
+	shield_hit_entity = "Rebel_Fighter_small_shield_hit_entity"
+	muzzle_flash_entity = "Rebel_Fighter_small_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "Rebel_Fighter_r_small_entity"
+	speed = 300.0			#preferred speed of the projectile
+	max_duration = 1.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "Falcon_Fighter_s_r"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "Rebel_Falcon_small_hit_entity"
+	shield_hit_entity = "Rebel_Falcon_small_shield_hit_entity"
+	muzzle_flash_entity = "Rebel_Falcon_small_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "Rebel_Falcon_r_small_entity"
+	speed = 350.0			#preferred speed of the projectile
+	max_duration = 1.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+#########
+# Missiles
+#########
+
+#Concussion Missiles
+
+projectile_gfx_missile = {
+	#common for all types of projectiles
+	name = "small_concussion_f_missile"
+	color = { 1.0 	0.5 	0.0 	1.0 }
+	hit_entity = "f_concussion_small_hit_entity"
+	shield_hit_entity = "f_concussion_small_shield_hit_entity"
+	muzzle_flash_entity = "f_concussion_small_muzzle_flash_entity"
+	
+	#missile specific data
+	entity = "f_concussion_small_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+}
+
+########
+#Proton Torpedo
+########
+
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "sw_proton_torpedo_s"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "sw_proton_small_hit_entity"
+	shield_hit_entity = "sw_proton_small_shield_hit_entity"
+	muzzle_flash_entity = "sw_proton_small_muzzle_flash_entity"
+	
+	#ballistic specific
+	entity = "sw_proton_small_entity"
+	speed = 100.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+}
+
+
+#######
+#Fractal Mod
+#######
+
+# Light Turbolaser
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "sw_fractal_LTL"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "fractal_LTL_g_small_hit_entity"
+	shield_hit_entity = "fractal_LTL_g_small_shield_hit_entity"
+	muzzle_flash_entity = "fractal_LTL_small_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "fractal_LTL_green_small_entity"
+	speed = 500.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# Quad Turbolaser
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "sw_fractal_Quad"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "fractal_quad_medium_hit_entity"
+	shield_hit_entity = "fractal_quad_medium_shield_hit_entity"
+	muzzle_flash_entity = "fractal_quad_medium_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "fractal_quad_green_medium_entity"
+	speed = 500.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# Heavy Dual Turbolaser
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "sw_fractal_DHTL"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "fractal_DHTL_large_hit_entity"
+	shield_hit_entity = "fractal_DHTL_large_shield_hit_entity"
+	muzzle_flash_entity = "fractal_DHTL_large_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "fractal_DHTL_green_medium_entity"
+	speed = 500.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# Missiles
+
+projectile_gfx_missile = {
+	#common for all types of projectiles
+	name = "sw_fractal_swarmer_miss"
+	color = { 1.0 	0.5 	0.0 	1.0 }
+	hit_entity = "h_concussion_large_hit_entity"
+	shield_hit_entity = "h_concussion_large_shield_hit_entity"
+	muzzle_flash_entity = "concussion_large_muzzle_flash_entity"
+	
+	#missile specific data
+	entity = "swarmer_missiles_02_entity"
+	
+	shield_impact = {
+		size = large
+		delay = 0.0
+	}
+}
+
+

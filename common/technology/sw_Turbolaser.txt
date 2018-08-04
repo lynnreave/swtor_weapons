@@ -1,0 +1,908 @@
+# ##################
+# Turbolaser
+# ##################
+
+# Light Turbolaser
+tech_light_turbo = {
+	area = engineering
+	cost = @tier1cost2
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_st_shipsized_weapons" }
+	weight = @tier1weight1
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TURBO_LASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_TURBO_LASER_CHAIN_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+# Turbolaser
+tech_turbo_laser = {
+	area = engineering
+	cost = @tier1cost4
+	tier = 2
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_light_turbo" "tech_st_tibanna_refined" }
+	weight = @tier1weight2
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TURBO_LASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_TURBO_LASER_CHAIN_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+# Medium Turbolaser
+tech_medium_turbo = {
+	area = engineering
+	cost = @tier2cost2
+	tier = 2
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_st_galven_coils" "tech_turbo_laser" }
+	weight = @tier2weight2
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TURBO_LASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_TURBO_LASER_CHAIN_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4		#weapons are good
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+# Heavy Turbolaser
+tech_heavy_turbo = {
+	area = engineering
+	cost = @tier2cost4
+	tier = 2
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_medium_turbo" }
+	weight = @tier2weight4
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_QUAD_LASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_QUAD_LASER_CHAIN_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4		#weapons are good
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+# Very Heavy Turbolaser
+tech_veryheavy_turbo = {
+	area = engineering
+	cost = @tier3cost3
+	tier = 3
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_heavy_turbo" "tech_st_fire_chamb" }
+	weight = @tier3weight3
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_OCTUPLE_LASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_OCTUPLE_LASER_CHAIN_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4		#weapons are good
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+#Quad Turbo
+tech_quad_turbo_1 = {
+	area = engineering
+	cost = @tier3cost2
+	tier = 3
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_st_blast_rad" }
+	weight = @tier3weight1
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_QUAD_LASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_QUAD_LASER_CHAIN_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4		#weapons are good
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+tech_quad_turbo_2 = {
+	area = engineering
+	cost = @tier3cost3
+	tier = 3
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_quad_turbo_1" }
+	weight = @tier3weight3
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_QUAD_LASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_QUAD_LASER_CHAIN_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4		#weapons are good
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+tech_quad_turbo_3 = {
+	area = engineering
+	cost = @tier3cost4
+	tier = 3
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_quad_turbo_2" "tech_st_astro_mech" }
+	weight = @tier3weight4
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_OCTUPLE_LASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_OCTUPLE_LASER_CHAIN_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4		#weapons are good
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+#Octuple
+tech_octuple_turbo_1 = {
+	area = engineering
+	cost = @tier3cost2
+	tier = 3
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_veryheavy_turbo" "tech_st_barrels" "tech_st_blast_rad" }
+	weight = @tier3weight2
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_OCTUPLE_LASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_OCTUPLE_LASER_CHAIN_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4		#weapons are good
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+tech_octuple_turbo_2 = {
+	area = engineering
+	cost = @tier3cost4
+	tier = 3
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_octuple_turbo_1" "tech_quad_turbo_3" }
+	weight = @tier3weight4
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_OCTUPLE_LASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_OCTUPLE_LASER_CHAIN_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4		#weapons are good
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+####
+#Superlaser
+####
+
+tech_conq_laser = {
+	area = engineering
+	cost = @tier3cost3
+	tier = 3
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_sw_kyber_crystal" }
+	weight = @tier3weight2
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_SUPERLASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_SUPERLASER_CHAIN_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4		#weapons are good
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+
+
+###Damage Tech####
+
+tech_agrocite_enhancement = {
+	area = engineering
+	cost = @tier2cost3
+	tier = 2
+	category = { materials }
+	prerequisites = { "tech_medium_turbo" }
+	weight = @tier2weight3
+
+	weight_modifier = {
+		factor = 1.0
+	}
+
+	ai_weight = {
+		factor = 2.0
+	}
+
+	modifier = {
+		weapon_type_turbo_laser_weapon_damage_mult = 0.10
+	}
+}
+
+tech_coolant_enhancement = {
+	area = engineering
+	cost = @tier2cost3
+	tier = 2
+	category = { materials }
+	prerequisites = { "tech_medium_turbo" }
+	weight = @tier2weight3
+
+	weight_modifier = {
+		factor = 1.0
+	}
+
+	ai_weight = {
+		factor = 2.0
+	}
+
+	modifier = {
+		weapon_type_turbo_laser_weapon_fire_rate_mult = 0.10
+	}
+}
+
+###########################
+### TECH COSTS - REPEATABLE  ###
+###########################
+
+@repeatableTechBaseCost = 3000
+@repeatableTechLevelCost = 1000
+
+
+###########################
+### TECH WEIGHTS - REPEATABLE  ###
+###########################
+
+@repeatableTechWeight = 25
+@repatableTechFactor = 0.5
+
+
+tech_repeatable_weapon_type_turbo_laser_damage = {
+	area = engineering
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = 2
+	category = { materials }
+	ai_update_type = military
+	levels = -1
+	prerequisites = { "tech_heavy_turbo" }
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 2.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		weapon_type_turbo_laser_weapon_damage_mult = 0.05
+	}
+}
+
+tech_repeatable_weapon_type_turbo_laser_fire_rate = {
+	area = engineering
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = 2
+	category = { materials }
+	ai_update_type = military
+	levels = -1
+	prerequisites = { "tech_heavy_turbo" }
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 2.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		weapon_type_turbo_laser_weapon_fire_rate_mult = 0.05
+	}
+}

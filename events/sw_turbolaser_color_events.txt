@@ -1,0 +1,29 @@
+#by shuulleech
+
+namespace = turbolaser_color
+
+
+country_event = {
+	id = turbolaser_color.1
+	title = "tech_st_blaster_eng_color_event"
+	desc = "tech_st_blaster_eng_color_event_desc"
+	is_triggered_only = yes
+	trigger = {
+		has_technology = "tech_st_blaster_eng" 
+		NOT = { has_technology = "tech_st_blastercolor_red" }
+		NOT = { has_technology = "tech_st_blastercolor_green" }
+		NOT = { has_technology = "tech_st_blastercolor_blue" }
+	}
+	option = {
+		name = GREEN
+		give_technology = { tech = tech_st_blastercolor_green }
+	}
+	option = {
+		name = RED
+		give_technology = { tech = tech_st_blastercolor_red }
+	}
+	option = {
+		name = BLUE
+		give_technology = { tech = tech_st_blastercolor_blue }
+	}
+}

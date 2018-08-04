@@ -1,0 +1,21 @@
+
+
+# Test Octuple
+
+entity = {
+	name = "octuple_entity"
+	pdxmesh = "st_Turret_XL_mesh"
+	
+	
+	scale = 1.0
+}
+
+entity = {
+	name = "sw_Superlaser_entity"
+	pdxmesh = "sw_empty_turret_mesh"
+	
+	
+	scale = 1.0
+}	
+
+

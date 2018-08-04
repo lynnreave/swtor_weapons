@@ -1,0 +1,215 @@
+# Icons set here are the ones show in the actual slot. The reason is so that we can support different icons for different sizes. 
+
+
+
+# DEFAULT VALUES:
+# is_missile = no
+# is_beam = no
+# is_point_defence = no
+
+# ####################
+#  Disruptor
+# ####################
+
+# ## Heavy Turbolaser
+
+weapon_component_template = {
+	type = instant
+	
+	key = "MEDIUM_DISRUPTOR_1_P"
+	size = medium
+	entity = "medium_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_disruptor_turbo_1"
+	icon_frame = 1
+	
+	damage = { min = 20.0 max = 61.0 }
+	windup = { min = 1.0 max = 20.0 }
+	total_fire_time = 30.0
+	range = 45.0
+	accuracy = 0.76
+	tracking = 0.40
+	
+	shield_damage = 1.0
+	shield_penetration = 0.0
+	armor_penetration = 0.60
+	
+	power = -15.50
+	cost = 30.00
+	
+	prerequisites = { "tech_st_disruptor_1" }
+	component_set = "DISRUPTOR_1_P"
+	projectile_gfx = "st_disruptor_1_m"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_short_range }
+	upgrades_to = "MEDIUM_DISRUPTOR_2_P"
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "LARGE_DISRUPTOR_1_P"
+	size = large
+	entity = "large_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_disruptor_turbo_1"
+	icon_frame = 1
+	
+	damage = { min = 47.0 max = 122.0 }
+	windup = { min = 1.0 max = 20.0 }
+	total_fire_time = 32.5
+	range = 65.0
+	accuracy = 0.74
+	tracking = 0.10
+	
+	shield_damage = 1.20
+	shield_penetration = 0.0
+	armor_penetration = 0.60
+	
+	power = -30.00
+	cost = 50.00
+	
+	
+	prerequisites = { "tech_st_disruptor_1" }
+	component_set = "DISRUPTOR_1_P"
+	projectile_gfx = "st_disruptor_1_l"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_short_range }
+	upgrades_to = "LARGE_DISRUPTOR_2_P"
+}
+
+### Disruptor 2
+
+weapon_component_template = {
+	type = instant
+	
+	key = "MEDIUM_DISRUPTOR_2_P"
+	size = medium
+	entity = "medium_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_disruptor_turbo_2"
+	icon_frame = 1
+	
+	damage = { min = 24.0 max = 64.0 }
+	windup = { min = 1.0 max = 20.0 }
+	total_fire_time = 30.0
+	range = 45.0
+	accuracy = 0.77
+	tracking = 0.42
+	
+	shield_damage = 1.20
+	shield_penetration = 0.0
+	armor_penetration = 0.60
+	
+	power = -17.50
+	cost = 40.00
+	
+	prerequisites = { "tech_st_disruptor_2" }
+	component_set = "DISRUPTOR_2_P"
+	projectile_gfx = "st_disruptor_1_m"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_short_range }
+	upgrades_to = "MEDIUM_DISRUPTOR_3_P"
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "LARGE_DISRUPTOR_2_P"
+	size = large
+	entity = "large_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_disruptor_turbo_2"
+	icon_frame = 1
+	
+	
+	damage = { min = 50.0 max = 125.0 }
+	windup = { min = 1.0 max = 20.0 }
+	total_fire_time = 32.5
+	range = 65.0
+	accuracy = 0.75
+	tracking = 0.12
+	
+	shield_damage = 1.20
+	shield_penetration = 0.0
+	armor_penetration = 0.60
+	
+	power = -35.00
+	cost = 60.00
+	
+	
+	prerequisites = { "tech_st_disruptor_2" }
+	component_set = "DISRUPTOR_2_P"
+	projectile_gfx = "st_disruptor_1_l"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_short_range }
+	upgrades_to = "LARGE_DISRUPTOR_3_P"
+}
+
+### Disruptor 3
+
+weapon_component_template = {
+	type = instant
+	
+	key = "MEDIUM_DISRUPTOR_3_P"
+	size = medium
+	entity = "medium_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_disruptor_turbo_3"
+	icon_frame = 1
+	
+	damage = { min = 30.0 max = 70.0 }
+	windup = { min = 1.0 max = 20.0 }
+	total_fire_time = 30.0
+	range = 45.0
+	accuracy = 0.78
+	tracking = 0.44
+	
+	shield_damage = 1.2
+	shield_penetration = 0.0
+	armor_penetration = 0.60
+	
+	power = -20.0
+	cost = 50.00
+	
+	prerequisites = { "tech_st_disruptor_3" }
+	component_set = "DISRUPTOR_3_P"
+	projectile_gfx = "st_disruptor_3_m"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_short_range }
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "LARGE_DISRUPTOR_3_P"
+	size = large
+	entity = "large_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_disruptor_turbo_3"
+	icon_frame = 1
+	
+	
+	damage = { min = 56.0 max = 131.0 }
+	windup = { min = 1.0 max = 20.0 }
+	total_fire_time = 32.5
+	range = 65.0
+	accuracy = 0.76
+	tracking = 0.14
+	
+	shield_damage = 1.2
+	shield_penetration = 0.0
+	armor_penetration = 0.60
+	
+	power = -40.00
+	cost = 70.00
+	
+	
+	prerequisites = { "tech_st_disruptor_3" }
+	component_set = "DISRUPTOR_3_P"
+	projectile_gfx = "st_disruptor_3_l"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_short_range }
+}
+
+

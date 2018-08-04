@@ -1,0 +1,332 @@
+###################
+# Disruptor Start
+###################
+
+# Color Purple
+
+tech_st_blastercolor_purple = {
+	area = engineering
+	cost = @tier3cost2
+	tier = 3
+	category = { materials }
+	prerequisites = { tech_st_blaster_eng }
+	ai_update_type = military
+	weight = @tier3weight3
+	is_rare = yes
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DISRUPTOR_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_DISRUPTOR_CHAIN_DESC"
+		}
+	}
+
+	modifier = {
+		weapon_type_turbo_laser_weapon_damage_mult = 0.05
+	}
+
+	weight_modifier = {
+
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 50 }
+		}
+
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+# Chain
+
+tech_st_agent = {
+	cost = @tier3cost3
+	area = society
+	tier = 3
+	category = { military_theory }
+	prerequisites = { "tech_st_blastercolor_purple" }
+	weight = @tier3weight4
+	is_rare = yes
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DISRUPTOR_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_DISRUPTOR_CHAIN_DESC"
+		}
+	}
+
+	modifier = {
+		country_border_mult = 0.05
+		max_energy = 250
+	}
+
+	weight_modifier = {
+
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 70 }
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+}
+
+tech_st_black_market = {
+	cost = @tier3cost3
+	area = society
+	tier = 3
+	category = { statecraft }
+	prerequisites = { "tech_st_agent" }
+	weight = @tier3weight4
+	is_rare = yes
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DISRUPTOR_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_DISRUPTOR_CHAIN_DESC"
+		}
+	}
+
+	modifier = {
+		ship_upkeep_mult = -0.05
+		max_minerals = 500
+	}
+
+	weight_modifier = {
+
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 75 }
+		}
+
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}
+
+tech_st_zann_con = {
+	cost = @tier3cost4
+	area = society
+	tier = 3
+	category = { military_theory }
+	prerequisites = { "tech_st_disruptor_2" }
+	weight = @tier3weight5
+	is_rare = yes
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DISRUPTOR_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_DISRUPTOR_CHAIN_DESC"
+		}
+	}
+
+	modifier = {
+		country_border_mult = 0.05
+	}
+
+	weight_modifier = {
+
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 70 }
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+}
+
+
+
+# Light Disruptor
+tech_st_disruptor_1 = {
+	area = engineering
+	cost = @tier3cost2
+	tier = 3
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_st_blastercolor_purple" "tech_heavy_turbo" }
+	weight = @tier3weight4
+	is_rare = yes
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DISRUPTOR_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_DISRUPTOR_CHAIN_DESC"
+		}
+	}
+
+	weight_modifier = {
+		factor = 1.25
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+#Disruptor 2
+tech_st_disruptor_2 = {
+	area = engineering
+	cost = @tier3cost3
+	tier = 3
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_st_disruptor_1" "tech_st_black_market" }
+	weight = @tier3weight4
+	is_rare = yes
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DISRUPTOR_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_DISRUPTOR_CHAIN_DESC"
+		}
+	}
+
+	modifier = {
+		weapon_type_turbo_laser_weapon_damage_mult = 0.05
+	}
+
+	weight_modifier = {
+		factor = 1.25
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+# Disruptor 3
+tech_st_disruptor_3 = {
+	area = engineering
+	cost = @tier3cost4
+	tier = 3
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_st_zann_con" }
+	weight = @tier3weight5
+	is_rare = yes
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_DISRUPTOR_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_DISRUPTOR_CHAIN_DESC"
+		}
+	}
+
+	modifier = {
+		weapon_type_turbo_laser_weapon_damage_mult = 0.05
+	}
+
+	weight_modifier = {
+		factor = 1.25
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}

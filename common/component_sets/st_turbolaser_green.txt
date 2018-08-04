@@ -1,0 +1,110 @@
+# Icons set here are the ones shown in component editor list.
+
+component_set = {
+	key = "BLASTER_1"
+	
+	icon = "GFX_ship_part_blaster_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "LIGHT_TURBO_1_G"
+	
+	icon = "GFX_ship_part_turbo_laser_g_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TURBO_LASER_2_G"
+	
+	icon = "GFX_ship_part_turbo_laser_g_2"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "MEDIUM_TURBO_3_G"
+	
+	icon = "GFX_ship_part_turbo_laser_g_3"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "HEAVY_TURBO_4_G"
+	
+	icon = "GFX_ship_part_turbo_laser_g_4"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "VERYHEAVY_TURBO_5_G"
+	
+	icon = "GFX_ship_part_turbo_laser_g_5"
+	icon_frame = 1	
+}
+
+
+# Spaceport Turbolaser
+
+component_set = {
+	key = "SPACEPORT_TURBO_LASER_G"
+	
+	icon = "GFX_ship_part_turbo_laser_g_5"
+	icon_frame = 1	
+}
+
+
+# Quad Turbolaser
+
+component_set = {
+	key = "QUAD_TURBO_1_G"
+	
+	icon = "GFX_ship_part_quad_turbo_g_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "FLAK_QUAD_TURBO_1_G"
+	
+	icon = "GFX_ship_part_quad_turbo_g_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "QUAD_TURBO_2_G"
+	
+	icon = "GFX_ship_part_quad_turbo_g_2"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "FLAK_QUAD_TURBO_2_G"
+	
+	icon = "GFX_ship_part_quad_turbo_g_2"
+	icon_frame = 1	
+}
+
+
+component_set = {
+	key = "QUAD_TURBO_3_G"
+	
+	icon = "GFX_ship_part_quad_turbo_g_3"
+	icon_frame = 1	
+}
+
+# Octuple Turbolaser
+
+component_set = {
+	key = "OCTUPLE_TURBO_1_G"
+	
+	icon = "GFX_ship_part_octuple_turbo_g_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "OCTUPLE_TURBO_2_G"
+	
+	icon = "GFX_ship_part_octuple_turbo_g_2"
+	icon_frame = 1	
+}
+
+

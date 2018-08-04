@@ -1,0 +1,86 @@
+# Disruptor
+
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "st_disruptor_1_m"
+	color = { 0.58 	0.47 	1.0 	1.0 }
+	hit_entity = "st_disruptor_1_medium_hit_entity"
+	shield_hit_entity = "st_disruptor_1_medium_shield_hit_entity"
+	muzzle_flash_entity = "st_disruptor_1_medium_muzzle_entity"
+	
+	#ballistic specific
+	entity = "sw_disruptor_1_medium_entity"
+	speed = 550.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+
+	
+	shield_impact = {
+		size = medium
+		delay = 0.0
+	}
+}
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "st_disruptor_1_l"
+	color = { 0.58 	0.47 	1.0 	1.0 }
+	hit_entity = "st_disruptor_1_large_hit_entity"
+	shield_hit_entity = "st_disruptor_1_large_shield_hit_entity"
+	muzzle_flash_entity = "st_disruptor_1_large_muzzle_entity"
+	
+	#ballistic specific
+	entity = "sw_disruptor_1_large_entity"
+	speed = 550.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+
+	
+	shield_impact = {
+		size = large
+		delay = 0.0
+	}
+}
+#Disruptor 3
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "st_disruptor_3_m"
+	color = { 0.58 	0.47 	1.0 	1.0 }
+	hit_entity = "st_disruptor_3_medium_hit_entity"
+	shield_hit_entity = "st_disruptor_3_medium_shield_hit_entity"
+	muzzle_flash_entity = "st_disruptor_3_medium_muzzle_entity"
+	
+	#ballistic specific
+	entity = "sw_disruptor_3_medium_entity"
+	speed = 550.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+
+	
+	shield_impact = {
+		size = medium
+		delay = 0.0
+	}
+}
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "st_disruptor_3_l"
+	color = { 0.58 	0.47 	1.0 	1.0 }
+	hit_entity = "st_disruptor_3_large_hit_entity"
+	shield_hit_entity = "st_disruptor_3_large_shield_hit_entity"
+	muzzle_flash_entity = "st_disruptor_3_large_muzzle_entity"
+	
+	#ballistic specific
+	entity = "sw_disruptor_3_large_entity"
+	speed = 550.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+
+	
+	shield_impact = {
+		size = large
+		delay = 0.0
+	}
+}
+
+
+

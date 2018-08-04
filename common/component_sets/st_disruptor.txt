@@ -1,0 +1,22 @@
+#Disruptor
+
+component_set = {
+	key = "DISRUPTOR_1_P"
+	
+	icon = "GFX_ship_part_disruptor_turbo_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "DISRUPTOR_2_P"
+	
+	icon = "GFX_ship_part_disruptor_turbo_2"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "DISRUPTOR_3_P"
+	
+	icon = "GFX_ship_part_disruptor_turbo_3"
+	icon_frame = 1	
+}

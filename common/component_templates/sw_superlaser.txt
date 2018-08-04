@@ -1,0 +1,41 @@
+# ####################
+#  Super Laser
+# ####################
+
+# ## Superlaser
+weapon_component_template = {
+	key = "SW_SUPERLASER"
+	size = extra_large
+	entity = "sw_Superlaser_entity"
+	
+	type = instant
+	
+	icon = "GFX_ship_part_sw_superlaser"
+	icon_frame = 1
+	
+	damage = { min = 420.0 max = 880.0 }
+	windup = { min = 45.0 max = 135.0 }
+	total_fire_time = 90.0
+	range = 120.0
+	accuracy = 1.00
+	tracking = 0.00
+	
+	shield_damage = 1.20
+	shield_penetration = 0.35
+	armor_penetration = 0.60
+	
+	power = -140.00
+	cost = 300.00
+	
+	firing_arc = 40.0
+	min_range = 10.0
+	static_rotation = yes
+
+	
+	prerequisites = { "tech_conq_laser" }
+	component_set = "SW_SUPERLASER"
+	projectile_gfx = "sw_superlaser"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_long_range weapon_role_anti_armor }
+
+}

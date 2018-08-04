@@ -1,0 +1,104 @@
+#####Active Countermeasures (Defence Turbo)#####
+
+tech_defence_turbo_1 = {
+	area = physics
+	tier = 1
+	cost = @tier1cost2
+	category = { computing }
+	ai_update_type = military
+	prerequisites = { "tech_administrative_ai" "tech_light_turbo" }
+	weight = @tier1weight2
+
+	# unlocks denfence turbo 1
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+}
+
+#Interlinked Support Systems
+
+tech_defence_turbo_2 = {
+	area = physics
+	tier = 2
+	cost = @tier2cost3
+	category = { computing }
+	ai_update_type = military
+	prerequisites = { "tech_defence_turbo_1" "tech_quad_turbo_1" }
+	weight = @tier2weight3
+
+	# unlocks point defence 2
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+}
+
+#Predictive Algorithms
+
+tech_defence_turbo_3 = {
+	area = physics
+	tier = 3
+	cost = @tier3cost3
+	category = { computing }
+	ai_update_type = military
+	prerequisites = { "tech_defence_turbo_2" "tech_st_barrels" }
+	weight = @tier3weight3
+
+	# unlocks point defence 3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+}

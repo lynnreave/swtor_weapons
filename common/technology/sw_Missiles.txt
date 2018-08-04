@@ -1,0 +1,429 @@
+#Concussion Missiles
+
+# Small Concussion
+tech_small_concussion = {
+	area = engineering
+	cost = @tier1cost2
+	tier = 1
+	category = { rocketry }
+	ai_update_type = military
+	prerequisites = { "tech_st_shipsized_weapons" }
+	weight = @tier1weight1
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_CONCUSSION_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_CONCUSSION_CHAIN_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_propulsion"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4		#weapons are good
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_propulsion"
+			}
+		}
+	}
+}
+
+# Medium Concussion
+tech_medium_concussion = {
+	area = engineering
+	cost = @tier2cost2
+	tier = 2
+	category = { rocketry }
+	ai_update_type = military
+	prerequisites = { "tech_small_concussion" "tech_medium_turbo" }
+	weight = @tier2weight2
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_CONCUSSION_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_CONCUSSION_CHAIN_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_propulsion"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4		#weapons are good
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_propulsion"
+			}
+		}
+	}
+}
+
+# Heavy Concussion
+tech_heavy_concussion = {
+	area = engineering
+	cost = @tier2cost4
+	tier = 3
+	category = { rocketry }
+	ai_update_type = military
+	prerequisites = { "tech_medium_concussion" "tech_veryheavy_turbo" }
+	weight = @tier3weight3
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_CONCUSSION_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_CONCUSSION_CHAIN_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_propulsion"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4		#weapons are good
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_propulsion"
+			}
+		}
+	}
+}
+
+# Assault Concussion
+tech_assault_concussion = {
+	area = engineering
+	cost = @tier3cost1
+	tier = 3
+	category = { rocketry }
+	ai_update_type = military
+	prerequisites = { "tech_heavy_concussion" }
+	weight = @tier3weight4
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_CONCUSSION_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_CONCUSSION_CHAIN_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_propulsion"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4		#weapons are good
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_propulsion"
+			}
+		}
+	}
+}
+
+# Ion Pulse Missiles
+
+# Ion Pulse Missile
+tech_ion_pulse_missile = {
+	area = physics
+	cost = @tier2cost3
+	tier = 2
+	category = { particles }
+	ai_update_type = military
+	prerequisites = { "tech_small_concussion" "tech_ion_cannon_2" }
+	weight = @tier2weight1
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_CONCUSSION_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_CONCUSSION_CHAIN_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4		#weapons are good
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+}
+
+# Ion Pulse Missile
+tech_ion_pulse_missile_2 = {
+	area = physics
+	cost = @tier3cost1
+	tier = 3
+	category = { particles }
+	ai_update_type = military
+	prerequisites = { "tech_ion_pulse_missile" "tech_veryheavy_turbo" }
+	weight = @tier3weight3
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_CONCUSSION_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_CONCUSSION_CHAIN_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4		#weapons are good
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+}

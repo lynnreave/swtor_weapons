@@ -1,0 +1,24 @@
+# Icons set here are the ones shown in component editor list.
+
+# Ion Cannon
+
+component_set = {
+	key = "ION_CANNON_1"
+	
+	icon = "GFX_ship_part_ion_cannon_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "ION_CANNON_2"
+	
+	icon = "GFX_ship_part_ion_cannon_2"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "ION_CANNON_3"
+	
+	icon = "GFX_ship_part_ion_cannon_3"
+	icon_frame = 1	
+}

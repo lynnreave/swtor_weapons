@@ -1,0 +1,410 @@
+# Turbolasers Green color
+
+# Light Turbolaser
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "light_turbo_s_g"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "light_turbo_g_small_hit_entity"
+	shield_hit_entity = "light_turbo_g_small_shield_hit_entity"
+	muzzle_flash_entity = "light_turbo_g_small_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "light_turbolaser_green_small_entity"
+	speed = 600.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "light_turbo_m_g"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "light_turbo_g_medium_hit_entity"
+	shield_hit_entity = "light_turbo_g_medium_shield_hit_entity"
+	muzzle_flash_entity = "light_turbo_g_medium_muzzle_entity"
+	
+	shield_impact = {
+		size = medium
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "light_turbolaser_green_medium_entity"
+	speed = 600.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "light_turbo_l_g"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "light_turbo_g_large_hit_entity"
+	shield_hit_entity = "light_turbo_g_large_shield_hit_entity"
+	muzzle_flash_entity = "light_turbo_g_large_muzzle_entity"
+	
+	shield_impact = {
+		size = large
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "light_turbolaser_green_large_entity"
+	speed = 600.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# Turbolaser
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "turbolaser_s_g"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "turbolaser_g_small_hit_entity"
+	shield_hit_entity = "turbolaser_g_small_shield_hit_entity"
+	muzzle_flash_entity = "turbolaser_g_small_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "turbolaser_green_small_entity"
+	speed = 600.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "turbolaser_m_g"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "turbolaser_g_medium_hit_entity"
+	shield_hit_entity = "turbolaser_g_medium_shield_hit_entity"
+	muzzle_flash_entity = "turbolaser_g_medium_muzzle_entity"
+	
+	shield_impact = {
+		size = medium
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "turbolaser_green_medium_entity"
+	speed = 600.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "turbolaser_l_g"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "turbolaser_g_large_hit_entity"
+	shield_hit_entity = "turbolaser_g_large_shield_hit_entity"
+	muzzle_flash_entity = "turbolaser_g_large_muzzle_entity"
+	
+	shield_impact = {
+		size = large
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "turbolaser_green_large_entity"
+	speed = 600.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# Medium Turbolaser
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "medium_turbolaser_s_g"
+	color = { 1.0 	1.0 	1.0 	1.0 }
+	hit_entity = "medium_turbolaser_g_small_hit_entity"
+	shield_hit_entity = "medium_turbolaser_g_small_shield_hit_entity"
+	muzzle_flash_entity = "medium_turbolaser_g_small_muzzle_entity"
+
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "medium_turbolaser_green_small_entity"
+	speed = 600.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "medium_turbolaser_m_g"
+	color = { 1.0 	1.0 	1.0 	1.0 }
+	hit_entity = "medium_turbolaser_g_medium_hit_entity"
+	shield_hit_entity = "medium_turbolaser_g_medium_shield_hit_entity"
+	muzzle_flash_entity = "medium_turbolaser_g_medium_muzzle_entity"
+
+	shield_impact = {
+		size = medium
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "medium_turbolaser_green_medium_entity"
+	speed = 600.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "medium_turbolaser_l_g"
+	color = { 1.0 	1.0 	1.0 	1.0 }
+	hit_entity = "medium_turbolaser_g_large_hit_entity"
+	shield_hit_entity = "medium_turbolaser_g_large_shield_hit_entity"
+	muzzle_flash_entity = "medium_turbolaser_g_large_muzzle_entity"
+	
+	shield_impact = {
+		size = large
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "medium_turbolaser_green_large_entity"
+	speed = 600.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# Heavy Turbolaser
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "heavy_turbo_s_g"
+	color = { 1.0 	1.0 	1.0		1.0 }
+	hit_entity = "heavy_turbo_g_small_hit_entity"
+	shield_hit_entity = "heavy_turbo_g_small_shield_hit_entity"
+	muzzle_flash_entity = "heavy_turbo_g_small_muzzle_entity"
+
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "heavy_turbo_green_small_entity"
+	speed = 600.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "heavy_turbo_m_g"
+	color = { 1.0 	1.0 	1.0		1.0 }
+	hit_entity = "heavy_turbo_g_medium_hit_entity"
+	shield_hit_entity = "heavy_turbo_g_medium_shield_hit_entity"
+	muzzle_flash_entity = "heavy_turbo_g_medium_muzzle_entity"
+	
+	shield_impact = {
+		size = medium
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "heavy_turbo_green_medium_entity"
+	speed = 600.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+
+}
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "heavy_turbo_l_g"
+	color = { 1.0 	1.0 	1.0		1.0 }
+	hit_entity = "heavy_turbo_g_large_hit_entity"
+	shield_hit_entity = "heavy_turbo_g_large_shield_hit_entity"
+	muzzle_flash_entity = "heavy_turbo_g_large_muzzle_entity"
+	
+	shield_impact = {
+		size = large
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "heavy_turbo_green_large_entity"
+	speed = 600.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# VeryheavyTurbolaser
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "veryheavy_turbo_s_g"
+	color = { 1.0 	1.0 	1.0		1.0 }
+	hit_entity = "veryheavy_turbo_g_small_hit_entity"
+	shield_hit_entity = "veryheavy_turbo_g_small_shield_hit_entity"
+	muzzle_flash_entity = "veryheavy_turbo_g_small_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "veryheavy_turbo_green_small_entity"
+	speed = 600.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "veryheavy_turbo_m_g"
+	color = { 1.0	1.0 	1.0		1.0 }
+	hit_entity = "veryheavy_turbo_g_medium_hit_entity"
+	shield_hit_entity = "veryheavy_turbo_g_medium_shield_hit_entity"
+	muzzle_flash_entity = "veryheavy_turbo_g_medium_muzzle_entity"
+	
+	shield_impact = {
+		size = medium
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "veryheavy_turbo_green_medium_entity"
+	speed = 600.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "veryheavy_turbo_l_g"
+	color = { 1.0 	1.0 	1.0		1.0 }
+	hit_entity = "veryheavy_turbo_g_large_hit_entity"
+	shield_hit_entity = "veryheavy_turbo_g_large_shield_hit_entity"
+	muzzle_flash_entity = "veryheavy_turbo_g_large_muzzle_entity"
+	
+	shield_impact = {
+		size = large
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "veryheavy_turbo_green_large_entity"
+	speed = 600.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# Quad Turbolaser
+
+# Quad 1 
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "quad_turbo_1_s_g"
+	color = { 1.0 	1.0 	1.0		1.0 }
+	hit_entity = "quad_turbo_1_g_small_hit_entity"
+	shield_hit_entity = "quad_turbo_1_g_small_shield_hit_entity"
+	muzzle_flash_entity = "quad_turbo_1_g_small_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "quad_turbo_1_green_small_entity"
+	speed = 600.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "quad_turbo_1_m_g"
+	color = { 1.0	1.0 	1.0		1.0 }
+	hit_entity = "quad_turbo_1_g_medium_hit_entity"
+	shield_hit_entity = "quad_turbo_1_g_medium_shield_hit_entity"
+	muzzle_flash_entity = "quad_turbo_1_g_medium_muzzle_entity"
+	
+	shield_impact = {
+		size = medium
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "quad_turbo_1_green_medium_entity"
+	speed = 600.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "quad_turbo_1_l_g"
+	color = { 1.0 	1.0 	1.0		1.0 }
+	hit_entity = "quad_turbo_1_g_large_hit_entity"
+	shield_hit_entity = "quad_turbo_1_g_large_shield_hit_entity"
+	muzzle_flash_entity = "quad_turbo_1_g_large_muzzle_entity"
+	
+	shield_impact = {
+		size = large
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "quad_turbo_1_green_large_entity"
+	speed = 600.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+#######
+#Flak Quad
+#######
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "flak_quad_turbo_1_m_g"
+	color = { 1.0	1.0 	1.0		1.0 }
+	hit_entity = "quad_turbo_1_g_medium_hit_entity"
+	shield_hit_entity = "quad_turbo_1_g_medium_shield_hit_entity"
+	muzzle_flash_entity = "flak_quad_turbo_g_medium_muzzle_entity"
+	
+	shield_impact = {
+		size = medium
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "light_turbolaser_green_small_entity"
+	speed = 600.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+##########
+#Octuple Turbolaser
+##########
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "octuple_turbo_g"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "octuple_turbo_g_hit_entity"
+	shield_hit_entity = "octuple_turbo_g_shield_hit_entity"
+	muzzle_flash_entity = "octuple_turbo_g_muzzle_entity"
+	
+	#ballistic specific
+	entity = "octuple_turbo_green_entity"
+	speed = 600.0			#preferred speed of the projectile
+	max_duration = 2.5		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+	
+	shield_impact = {
+		size = large
+		delay = 0.0
+	}
+}
+
+
+
+
+
+
+

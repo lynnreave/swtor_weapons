@@ -1,0 +1,482 @@
+# Empire
+
+######
+# Strike Fighter
+######
+
+#  muzzle flash
+
+entity = {
+	name = "TIE_Strike_small_muzzle_entity"
+	cull_radius = 0.25
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "green_blaster_small_muzzle_particle" keep_particle = yes sound = { soundeffect = Tie_Fighter_Laser } }
+	}
+}
+
+# PROJECTILE
+
+entity = {
+	name = "TIE_Strike_g_small_entity"
+	pdxmesh = "sw_blaster_g_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	
+	scale = 1.0
+}
+
+# HIT EFFECT
+
+
+entity = {
+	name = "TIE_Strike_small_hit_entity"
+	cull_radius = 0.5
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "green_blaster_small_hit_effect" sound = { soundeffect = Tie_Fighter_Laser } }
+	}
+	#state = { name = "explode_med_hp" state_time = 5 looping = no
+	#	event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" }
+	#}
+	state = { name = "explode_med_shield" state_time = 0.8 looping = no
+		event = { time = 0.0 node = "root" particle = "medium_hit_effect_shield" }
+	}
+	default_state = "explode_med_hp"
+}
+entity = {
+	name = "TIE_Strike_small_shield_hit_entity"
+	cull_radius = 0.5
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "green_blaster_small_hit_effect" sound = { soundeffect = Tie_Fighter_Laser } }
+		event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" }
+	}
+	default_state = "explode_med_hp"
+}
+
+
+######
+# TIE Fighter
+######
+
+#  muzzle flash
+
+entity = {
+	name = "TIE_Fighter_small_muzzle_entity"
+	cull_radius = 0.25
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "green_blaster_small_muzzle_particle" keep_particle = yes sound = { soundeffect = Tie_Fighter_Laser } }
+	}
+}
+
+# PROJECTILE
+
+entity = {
+	name = "TIE_Fighter_g_small_entity"
+	pdxmesh = "sw_blaster_g_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	
+	scale = 1.0
+}
+
+# HIT EFFECT
+
+
+entity = {
+	name = "TIE_Fighter_small_hit_entity"
+	cull_radius = 0.5
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "green_blaster_small_hit_effect" sound = { soundeffect = sw_hull_hit } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_sw_hull_hit" } } 
+	}
+	#state = { name = "explode_med_hp" state_time = 5 looping = no
+	#	event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" }
+	#}
+	state = { name = "explode_med_shield" state_time = 0.8 looping = no
+		event = { time = 0.0 node = "root" particle = "medium_hit_effect_shield" }
+	}
+	default_state = "explode_med_hp"
+}
+entity = {
+	name = "TIE_Fighter_small_shield_hit_entity"
+	cull_radius = 0.5
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "green_blaster_small_hit_effect" sound = { soundeffect = sw_shield_hit } }
+		event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" }
+		event = { trigger_once = yes sound = { soundeffect = "distance_sw_shield_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+
+######
+# Slave 1
+######
+
+#  muzzle flash
+
+entity = {
+	name = "Slave1_Patrol_small_muzzle_entity"
+	cull_radius = 0.5
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "red_blaster_small_muzzle_particle" keep_particle = yes sound = { soundeffect = Slave1_Patrol_Laser } }
+	}
+}
+
+# PROJECTILE
+
+entity = {
+	name = "Slave1_Patrol_r_small_entity"
+	pdxmesh = "sw_blaster_r_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	
+	scale = 1.0
+}
+
+# HIT EFFECT
+
+
+entity = {
+	name = "Slave1_Patrol_small_hit_entity"
+	cull_radius = 0.5
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "red_blaster_small_hit_effect" sound = { soundeffect = sw_Slave1_hit } }
+	}
+	#state = { name = "explode_med_hp" state_time = 5 looping = no
+	#	event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" }
+	#}
+	state = { name = "explode_med_shield" state_time = 0.8 looping = no
+		event = { time = 0.0 node = "root" particle = "medium_hit_effect_shield" }
+	}
+	default_state = "explode_med_hp"
+}
+entity = {
+	name = "Slave1_Patrol_small_shield_hit_entity"
+	cull_radius = 0.5
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "red_blaster_small_hit_effect" sound = { soundeffect = sw_Slave1_hit } }
+		event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" }
+	}
+	default_state = "explode_med_hp"
+}
+
+
+############
+# Rebel Mod
+############
+
+######
+# Rebel Fighter Laser
+######
+
+#  muzzle flash
+
+entity = {
+	name = "Rebel_Fighter_small_muzzle_entity"
+	cull_radius = 0.5
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "red_blaster_small_muzzle_particle" keep_particle = yes sound = { soundeffect = Z95_Laser } } 
+	}
+}
+
+# PROJECTILE
+
+entity = {
+	name = "Rebel_Fighter_r_small_entity"
+	pdxmesh = "sw_blaster_r_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	
+	scale = 0.8
+}
+
+# HIT EFFECT
+
+
+entity = {
+	name = "Rebel_Fighter_small_hit_entity"
+	cull_radius = 0.5
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "red_blaster_small_hit_effect" sound = { soundeffect = sw_hull_hit } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_sw_hull_hit" } } 
+	}
+	#state = { name = "explode_med_hp" state_time = 5 looping = no
+	#	event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" }
+	#}
+	state = { name = "explode_med_shield" state_time = 0.8 looping = no
+		event = { time = 0.0 node = "root" particle = "medium_hit_effect_shield" }
+	}
+	default_state = "explode_med_hp"
+}
+entity = {
+	name = "Rebel_Fighter_small_shield_hit_entity"
+	cull_radius = 0.5
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "red_blaster_small_hit_effect" sound = { soundeffect = sw_shield_hit } }
+		event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" }
+		event = { trigger_once = yes sound = { soundeffect = "distance_sw_shield_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+
+######
+# Rebel Strike Laser
+######
+
+#  muzzle flash
+
+entity = {
+	name = "Rebel_Strike_small_muzzle_entity"
+	cull_radius = 0.5
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "red_blaster_small_muzzle_particle" keep_particle = yes sound = { soundeffect = Z95_Laser } }
+	}
+}
+
+# PROJECTILE
+
+entity = {
+	name = "Rebel_Strike_r_small_entity"
+	pdxmesh = "sw_blaster_r_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	
+	scale = 0.6
+}
+
+# HIT EFFECT
+
+
+entity = {
+	name = "Rebel_Strike_small_hit_entity"
+	cull_radius = 0.5
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "red_blaster_small_hit_effect" sound = { soundeffect = Z95_Laser } } 
+	}
+	#state = { name = "explode_med_hp" state_time = 5 looping = no
+	#	event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" }
+	#}
+	state = { name = "explode_med_shield" state_time = 0.8 looping = no
+		event = { time = 0.0 node = "root" particle = "medium_hit_effect_shield" }
+	}
+	default_state = "explode_med_hp"
+}
+entity = {
+	name = "Rebel_Strike_small_shield_hit_entity"
+	cull_radius = 0.5
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "red_blaster_small_hit_effect" sound = { soundeffect = Z95_Laser } }
+		event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" }
+
+	}
+	default_state = "explode_med_hp"
+}
+
+######
+# Rebel Patrol Laser
+######
+
+#  muzzle flash
+
+entity = {
+	name = "Rebel_Falcon_small_muzzle_entity"
+	cull_radius = 0.5
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "red_blaster_small_muzzle_particle" keep_particle = yes sound = { soundeffect = Falcon_Laser } }
+	}
+}
+
+# PROJECTILE
+
+entity = {
+	name = "Rebel_Falcon_r_small_entity"
+	pdxmesh = "sw_blaster_r_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	
+	scale = 0.8
+}
+
+# HIT EFFECT
+
+
+entity = {
+	name = "Rebel_Falcon_small_hit_entity"
+	cull_radius = 0.5
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "red_blaster_small_hit_effect" sound = { soundeffect = sw_hull_hit } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_sw_hull_hit" } } 
+	}
+	#state = { name = "explode_med_hp" state_time = 5 looping = no
+	#	event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" }
+	#}
+	state = { name = "explode_med_shield" state_time = 0.8 looping = no
+		event = { time = 0.0 node = "root" particle = "medium_hit_effect_shield" }
+	}
+	default_state = "explode_med_hp"
+}
+entity = {
+	name = "Rebel_Falcon_small_shield_hit_entity"
+	cull_radius = 0.5
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "red_blaster_small_hit_effect" sound = { soundeffect = sw_shield_hit } }
+		event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" }
+		event = { trigger_once = yes sound = { soundeffect = "distance_sw_shield_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+############
+#Fighter Concussion
+###########
+
+# MUZZLE FLASHES
+
+entity = {
+	name = "f_concussion_small_muzzle_flash_entity"
+	cull_radius = 0.01
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "fighter_concussion_muzzle_flash_particle" keep_particle = yes sound = { soundeffect = sw_concussion_fire } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_missle_fire" } }
+	}
+}
+
+
+entity = {
+	name = "f_concussion_small_entity"
+	pdxmesh = "sw_concussion_missile_fighter_mesh"
+	
+	default_state = idle
+	state = { name = "idle"
+		start_event = { time = 0 node = exhaust particle = "fighter_concussion_idle_particle" keep_particle = yes }
+		start_event = { trigger_once = yes time = 0 node = exhaust particle = "fighter_concussion_idle_flame_particle" keep_particle = yes }
+		start_event = { trigger_once = yes sound = { soundeffect = "sw_missile_idle" } }
+	}
+	state = { name = "stop"
+		looping = no
+		state_time = 2.0
+	}
+	scale = 1.0
+}
+
+
+# HIT EFFECTS
+
+entity = {
+	name = "f_concussion_small_hit_entity"
+	cull_radius = 0.5
+	
+	state = { name = "explode_med_hp" state_time = 0.8 looping = no
+		event = { time = 0.0 particle = "missile_small_hit_effect" sound = { soundeffect = sw_concussion_hit } }
+		event = { trigger_once = yes sound = { soundeffect = "distant_sw_concussion_hit" } }
+	}
+	default_state = "explode_med_hp"
+}
+
+# SHIELD HIT
+
+entity = {
+	name = "f_concussion_small_shield_hit_entity"
+	cull_radius = 0.5
+	
+	state = { name = "explode_med_hp" state_time = 0.8 looping = no
+		event = { time = 0.0 particle = "missile_small_hit_effect" sound = { soundeffect = sw_concussion_hit } }
+		event = { time = 0.0 particle = "missile_small_shield_hit_effect" }
+		event = { trigger_once = yes sound = { soundeffect = "distant_sw_concussion_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+
+#########
+#Fighter Proton Torpedo
+#########
+# MUZZLE FLASH
+
+entity = {
+	name = "sw_proton_small_muzzle_flash_entity"
+	cull_radius = 0.5
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "sw_proton_small_muzzle_particle" keep_particle = yes sound = { soundeffect = sw_proton_fire } }
+		event = { trigger_once = yes sound = { soundeffect = "distant_sw_proton_fire" } }
+	}
+}
+
+# PROJECTILE
+
+entity = {
+	name = "sw_proton_small_entity"
+	cull_radius = 0.5
+	
+	default_state = idle
+	state = { name = "idle"
+		event = { time = 0 particle = "small_sw_proton_idle_particle" keep_particle = yes }
+		event = { time = 0 particle = "small_sw_proton_idle_drops_particle" keep_particle = yes }
+	}
+}
+
+# HIT EFFECT
+
+entity = {
+	name = "sw_proton_small_hit_entity"
+	cull_radius = 0.5
+	
+	state = { name = "explode_med_hp" state_time = 0.8 looping = no
+		event = { time = 0.0 particle = "sw_proton_small_hit_effect" sound = { soundeffect = sw_proton_hit } }
+	}
+	state = { name = "explode_med_shield" state_time = 0.8 looping = no
+		event = { time = 0.0 particle = "medium_hit_effect_shield" }
+	}
+	default_state = "explode_med_hp"
+}
+
+# Shield
+
+entity = {
+	name = "sw_proton_small_shield_hit_entity"
+	cull_radius = 0.5
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 particle = "sw_proton_small_hit_effect"  }
+		event = { time = 0.0 particle = "projectile_small_shield_hit_effect" sound = { soundeffect = sw_proton_hit } }
+	}
+	default_state = "explode_med_hp"
+}
+
+
+

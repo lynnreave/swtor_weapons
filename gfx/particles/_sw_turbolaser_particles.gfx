@@ -1,0 +1,232 @@
+objectTypes = {
+########
+# Idle Weapon effects
+########
+	pdxparticle = {
+		name = "sw_ion_spark_idle_particle"
+		type = "ion_spark_idle_effect"
+		
+		scale = 1.0
+	}
+
+####################
+#	MUZZLE FLASHES
+####################
+	
+	pdxparticle = {
+		name = "red_turbolaser_large_muzzle_particle"
+		type = "turbo_red_muzzle"
+		
+		scale = 0.5
+	}
+	
+	pdxparticle = {
+		name = "red_turbolaser_medium_muzzle_particle"
+		type = "turbo_red_muzzle"
+		
+		scale = 0.4
+	}
+	
+	pdxparticle = {
+		name = "red_turbolaser_small_muzzle_particle"
+		type = "turbo_red_muzzle"
+		
+		scale = 0.3
+	}
+	
+	
+	pdxparticle = {
+		name = "disruptor_large_muzzle_particle"
+		type = "turbo_purple_muzzle"
+		
+		scale = 0.5
+	}
+	
+	pdxparticle = {
+		name = "disruptor_medium_muzzle_particle"
+		type = "turbo_purple_muzzle"
+		
+		scale = 0.4
+	}
+	
+	pdxparticle = {
+		name = "disruptor_small_muzzle_particle"
+		type = "turbo_purple_muzzle"
+		
+		scale = 0.3
+	}
+	
+	pdxparticle = {
+		name = "green_turbolaser_large_muzzle_particle"
+		type = "turbo_green_muzzle"
+		
+		scale = 0.5
+	}
+	
+	pdxparticle = {
+		name = "green_turbolaser_medium_muzzle_particle"
+		type = "turbo_green_muzzle"
+		
+		scale = 0.4
+	}
+	
+	pdxparticle = {
+		name = "green_turbolaser_small_muzzle_particle"
+		type = "turbo_green_muzzle"
+		
+		scale = 0.3
+	}
+	
+	pdxparticle = {
+		name = "blue_turbolaser_large_muzzle_particle"
+		type = "turbo_blue_muzzle"
+		
+		scale = 0.5
+	}
+	
+	pdxparticle = {
+		name = "blue_turbolaser_medium_muzzle_particle"
+		type = "turbo_blue_muzzle"
+		
+		scale = 0.4
+	}
+	
+	pdxparticle = {
+		name = "blue_turbolaser_small_muzzle_particle"
+		type = "turbo_blue_muzzle"
+		
+		scale = 0.3
+	}
+	
+	pdxparticle = {
+		name = "ion_turbolaser_large_muzzle_particle"
+		type = "gauss_cannon_muzzle"
+		
+		scale = 0.5
+	}
+	
+	pdxparticle = {
+		name = "ion_turbolaser_medium_muzzle_particle"
+		type = "gauss_cannon_muzzle"
+		
+		scale = 0.4
+	}
+	
+	pdxparticle = {
+		name = "ion_turbolaser_small_muzzle_particle"
+		type = "gauss_cannon_muzzle"
+		
+		scale = 0.3
+	}
+	
+#####
+# HIT EFFECTS
+####
+	
+	pdxparticle = {
+		name = "red_turbolaser_large_hit_effect"
+		type = "Turbo_red_hit_effect"
+		
+		scale = 0.65
+	}
+	
+	pdxparticle = {
+		name = "red_turbolaser_medium_hit_effect"
+		type = "Turbo_red_hit_effect"
+		
+		scale = 0.5
+	}
+	
+	pdxparticle = {
+		name = "red_turbolaser_small_hit_effect"
+		type = "Turbo_red_hit_effect"
+		
+		scale = 0.4
+	}
+	
+	
+	pdxparticle = {
+		name = "disruptor_large_hit_effect"
+		type = "Turbo_purple_hit_effect"
+		
+		scale = 0.65
+	}
+	
+	pdxparticle = {
+		name = "disruptor_medium_hit_effect"
+		type = "Turbo_purple_hit_effect"
+		
+		scale = 0.5
+	}
+	
+	pdxparticle = {
+		name = "disruptor_small_hit_effect"
+		type = "Turbo_purple_hit_effect"
+		
+		scale = 0.4
+	}
+	
+	pdxparticle = {
+		name = "green_turbolaser_large_hit_effect"
+		type = "Turbo_green_hit_effect"
+		
+		scale = 0.65
+	}
+	
+	pdxparticle = {
+		name = "green_turbolaser_medium_hit_effect"
+		type = "Turbo_green_hit_effect"
+		
+		scale = 0.5
+	}
+	
+	pdxparticle = {
+		name = "green_turbolaser_small_hit_effect"
+		type = "Turbo_green_hit_effect"
+		
+		scale = 0.4
+	}
+	
+	pdxparticle = {
+		name = "blue_turbolaser_large_hit_effect"
+		type = "Turbo_blue_hit_effect"
+		
+		scale = 0.65
+	}
+	
+	pdxparticle = {
+		name = "blue_turbolaser_medium_hit_effect"
+		type = "Turbo_blue_hit_effect"
+		
+		scale = 0.5
+	}
+	
+	pdxparticle = {
+		name = "blue_turbolaser_small_hit_effect"
+		type = "Turbo_blue_hit_effect"
+		
+		scale = 0.4
+	}
+	
+	pdxparticle = {
+		name = "ion_turbolaser_large_hit_effect"
+		type = "gauss_cannon_hit_effect"
+		
+		scale = 0.65
+	}
+	
+	pdxparticle = {
+		name = "ion_turbolaser_medium_hit_effect"
+		type = "gauss_cannon_hit_effect"
+		
+		scale = 0.5
+	}
+	
+	pdxparticle = {
+		name = "ion_turbolaser_small_hit_effect"
+		type = "gauss_cannon_hit_effect"
+		
+		scale = 0.4
+	}
+
+}

@@ -1,0 +1,135 @@
+
+# PROJECTILE Defence Turbolaser MK I Green
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "defence_turbo_1_s_g"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "defence_turbo_small_hit_entity"
+	muzzle_flash_entity = "defence_turbo_g_small_muzzle_entity"
+	
+	#ballistic specific
+	entity = "defence_turbo_g_small_entity"
+	speed = 200.0			#preferred speed of the projectile
+	max_duration = 1.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# PROJECTILE Defence Turbolaser MK II
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "defence_turbo_2_s_g"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "defence_turbo_small_hit_entity"
+	muzzle_flash_entity = "defence_turbo_g_small_muzzle_entity"
+	
+	#ballistic specific
+	entity = "defence_turbo_g_small_entity"
+	speed = 200.0			#preferred speed of the projectile
+	max_duration = 1.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# PROJECTILE Defence Turbolaser MK III
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "defence_turbo_3_s_g"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "defence_turbo_small_hit_entity"
+	muzzle_flash_entity = "defence_turbo_g_small_muzzle_entity"
+	
+	#ballistic specific
+	entity = "defence_turbo_g_small_entity"
+	speed = 200.0			#preferred speed of the projectile
+	max_duration = 1.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# PROJECTILE Defence Turbolaser MK I Red
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "defence_turbo_1_s_r"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "defence_turbo_small_hit_entity"
+	muzzle_flash_entity = "defence_turbo_r_small_muzzle_entity"
+	
+	#ballistic specific
+	entity = "defence_turbo_r_small_entity"
+	speed = 200.0			#preferred speed of the projectile
+	max_duration = 1.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# PROJECTILE Defence Turbolaser MK II
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "defence_turbo_2_s_r"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "defence_turbo_small_hit_entity"
+	muzzle_flash_entity = "defence_turbo_r_small_muzzle_entity"
+	
+	#ballistic specific
+	entity = "defence_turbo_r_small_entity"
+	speed = 200.0			#preferred speed of the projectile
+	max_duration = 1.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# PROJECTILE Defence Turbolaser MK III
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "defence_turbo_3_s_r"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "defence_turbo_small_hit_entity"
+	muzzle_flash_entity = "defence_turbo_r_small_muzzle_entity"
+	
+	#ballistic specific
+	entity = "defence_turbo_r_small_entity"
+	speed = 200.0			#preferred speed of the projectile
+	max_duration = 1.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# PROJECTILE Defence Turbolaser MK I Blue
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "defence_turbo_1_s_b"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "defence_turbo_small_hit_entity"
+	muzzle_flash_entity = "defence_turbo_b_small_muzzle_entity"
+	
+	#ballistic specific
+	entity = "defence_turbo_b_small_entity"
+	speed = 200.0			#preferred speed of the projectile
+	max_duration = 1.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# PROJECTILE Defence Turbolaser MK II
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "defence_turbo_2_s_b"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "defence_turbo_small_hit_entity"
+	muzzle_flash_entity = "defence_turbo_b_small_muzzle_entity"
+	
+	#ballistic specific
+	entity = "defence_turbo_b_small_entity"
+	speed = 200.0			#preferred speed of the projectile
+	max_duration = 1.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+# PROJECTILE Defence Turbolaser MK III
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "defence_turbo_3_s_b"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "defence_turbo_small_hit_entity"
+	muzzle_flash_entity = "defence_turbo_b_small_muzzle_entity"
+	
+	#ballistic specific
+	entity = "defence_turbo_b_small_entity"
+	speed = 200.0			#preferred speed of the projectile
+	max_duration = 1.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}

@@ -1,0 +1,261 @@
+#All files in gfx/projectiles are reloadable with the "reload projectiles" console command
+#Filewatcher is also enabled for all files
+
+#Concussion Missiles
+
+projectile_gfx_missile = {
+	#common for all types of projectiles
+	name = "small_concussion_s_missile"
+	color = { 1.0 	0.5 	0.0 	1.0 }
+	hit_entity = "concussion_small_hit_entity"
+	shield_hit_entity = "concussion_small_shield_hit_entity"
+	muzzle_flash_entity = "concussion_small_muzzle_flash_entity"
+	
+	#missile specific data
+	entity = "s_concussion_small_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+}
+
+projectile_gfx_missile = {
+	#common for all types of projectiles
+	name = "medium_concussion_s_missile"
+	color = { 1.0 	0.5 	0.0 	1.0 }
+	hit_entity = "concussion_medium_hit_entity"
+	shield_hit_entity = "concussion_medium_shield_hit_entity"
+	muzzle_flash_entity = "concussion_medium_muzzle_flash_entity"
+	
+	#missile specific data
+	entity = "s_concussion_medium_entity"
+	
+	shield_impact = {
+		size = medium
+		delay = 0.0
+	}
+}
+
+projectile_gfx_missile = {
+	#common for all types of projectiles
+	name = "large_concussion_s_missile"
+	color = { 1.0 	0.5 	0.0 	1.0 }
+	hit_entity = "concussion_large_hit_entity"
+	shield_hit_entity = "concussion_large_shield_hit_entity"
+	muzzle_flash_entity = "concussion_large_muzzle_flash_entity"
+	
+	#missile specific data
+	entity = "m_concussion_large_entity"
+	
+	shield_impact = {
+		size = large
+		delay = 0.0
+	}
+}
+
+#######
+# Heavy Concussion
+#######
+
+projectile_gfx_missile = {
+	#common for all types of projectiles
+	name = "medium_concussion_h_missile"
+	color = { 1.0 	0.5 	0.0 	1.0 }
+	hit_entity = "h_concussion_medium_hit_entity"
+	shield_hit_entity = "h_concussion_medium_shield_hit_entity"
+	muzzle_flash_entity = "concussion_medium_muzzle_flash_entity"
+	
+	#missile specific data
+	entity = "h_concussion_medium_entity"
+	
+	shield_impact = {
+		size = medium
+		delay = 0.0
+	}
+}
+
+projectile_gfx_missile = {
+	#common for all types of projectiles
+	name = "large_concussion_h_missile"
+	color = { 1.0 	0.5 	0.0 	1.0 }
+	hit_entity = "h_concussion_large_hit_entity"
+	shield_hit_entity = "h_concussion_large_shield_hit_entity"
+	muzzle_flash_entity = "concussion_large_muzzle_flash_entity"
+	
+	#missile specific data
+	entity = "h_concussion_large_entity"
+	
+	shield_impact = {
+		size = large
+		delay = 0.0
+	}
+}
+
+#########
+# Assault Concussion
+#########
+
+projectile_gfx_missile = {
+	#common for all types of projectiles
+	name = "small_concussion_a_missile"
+	color = { 1.0 	0.5 	0.0 	1.0 }
+	hit_entity = "concussion_small_hit_entity"
+	shield_hit_entity = "concussion_small_shield_hit_entity"
+	muzzle_flash_entity = "concussion_small_muzzle_flash_entity"
+	
+	#missile specific data
+	entity = "a_concussion_small_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+}
+
+projectile_gfx_missile = {
+	#common for all types of projectiles
+	name = "medium_concussion_a_missile"
+	color = { 1.0 	0.5 	0.0 	1.0 }
+	hit_entity = "h_concussion_medium_hit_entity"
+	shield_hit_entity = "h_concussion_medium_shield_hit_entity"
+	muzzle_flash_entity = "concussion_medium_muzzle_flash_entity"
+	
+	#missile specific data
+	entity = "a_concussion_medium_entity"
+	
+	shield_impact = {
+		size = medium
+		delay = 0.0
+	}
+}
+
+projectile_gfx_missile = {
+	#common for all types of projectiles
+	name = "large_concussion_a_missile"
+	color = { 1.0 	0.5 	0.0 	1.0 }
+	hit_entity = "h_concussion_large_hit_entity"
+	shield_hit_entity = "h_concussion_large_shield_hit_entity"
+	muzzle_flash_entity = "concussion_large_muzzle_flash_entity"
+	
+	#missile specific data
+	entity = "a_concussion_large_entity"
+	
+	shield_impact = {
+		size = large
+		delay = 0.0
+	}
+}
+
+#########
+#Ion Pulse Missiles
+#########
+
+projectile_gfx_missile = {
+	#common for all types of projectiles
+	name = "small_ionpulse_missile"
+	color = { 1.0 	0.5 	0.0 	1.0 }
+	hit_entity = "ionpulse_small_hit_entity"
+	shield_hit_entity = "ionpulse_small_shield_hit_entity"
+	muzzle_flash_entity = "ionpulse_small_muzzle_flash_entity"
+	
+	#missile specific data
+	entity = "ionpulse_small_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+}
+
+projectile_gfx_missile = {
+	#common for all types of projectiles
+	name = "medium_ionpulse_missile"
+	color = { 1.0 	0.5 	0.0 	1.0 }
+	hit_entity = "ionpulse_medium_hit_entity"
+	shield_hit_entity = "ionpulse_medium_shield_hit_entity"
+	muzzle_flash_entity = "ionpulse_medium_muzzle_flash_entity"
+	
+	#missile specific data
+	entity = "ionpulse_medium_entity"
+	
+	shield_impact = {
+		size = medium
+		delay = 0.0
+	}
+}
+
+projectile_gfx_missile = {
+	#common for all types of projectiles
+	name = "large_ionpulse_missile"
+	color = { 1.0 	0.5 	0.0 	1.0 }
+	hit_entity = "ionpulse_large_hit_entity"
+	shield_hit_entity = "ionpulse_large_shield_hit_entity"
+	muzzle_flash_entity = "ionpulse_large_muzzle_flash_entity"
+	
+	#missile specific data
+	entity = "ionpulse_large_entity"
+	
+	shield_impact = {
+		size = large
+		delay = 0.0
+	}
+}
+
+#######
+# Ion Pulse 2
+#######
+
+
+projectile_gfx_missile = {
+	#common for all types of projectiles
+	name = "small_ionpulse_2_missile"
+	color = { 1.0 	0.5 	0.0 	1.0 }
+	hit_entity = "ionpulse_2_small_hit_entity"
+	shield_hit_entity = "ionpulse_2_small_shield_hit_entity"
+	muzzle_flash_entity = "ionpulse_2_small_muzzle_flash_entity"
+	
+	#missile specific data
+	entity = "ionpulse_2_small_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+}
+
+projectile_gfx_missile = {
+	#common for all types of projectiles
+	name = "medium_ionpulse_2_missile"
+	color = { 1.0 	0.5 	0.0 	1.0 }
+	hit_entity = "ionpulse_2_medium_hit_entity"
+	shield_hit_entity = "ionpulse_2_medium_shield_hit_entity"
+	muzzle_flash_entity = "ionpulse_2_medium_muzzle_flash_entity"
+	
+	#missile specific data
+	entity = "ionpulse_2_medium_entity"
+	
+	shield_impact = {
+		size = medium
+		delay = 0.0
+	}
+}
+
+projectile_gfx_missile = {
+	#common for all types of projectiles
+	name = "large_ionpulse_2_missile"
+	color = { 1.0 	0.5 	0.0 	1.0 }
+	hit_entity = "ionpulse_2_large_hit_entity"
+	shield_hit_entity = "ionpulse_2_large_shield_hit_entity"
+	muzzle_flash_entity = "ionpulse_2_large_muzzle_flash_entity"
+	
+	#missile specific data
+	entity = "ionpulse_2_large_entity"
+	
+	shield_impact = {
+		size = large
+		delay = 0.0
+	}
+}
+
+

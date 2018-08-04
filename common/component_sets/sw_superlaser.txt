@@ -1,0 +1,6 @@
+component_set = {
+	key = "SW_SUPERLASER"
+	
+	icon = "GFX_ship_part_sw_superlaser"
+	icon_frame = 1	
+}

@@ -1,0 +1,135 @@
+######
+# Ion Cannon Light
+######
+
+entity = {
+	name = "test_turbolaser_green_small_entity"
+	pdxmesh = "sw_turbolaser_g_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	
+	#later
+	locator = { name = "bolt1" rotation = { 0 0 0 } position = { -2 0 0 } }
+	attach = { bolt1 = "test_turbolaser_red_small_entity" }
+	locator = { name = "bolt2" rotation = { 0 0 0 } position = { 2 0 0 } }
+	attach = { bolt2 = "test_turbolaser_blue_small_entity" }
+	locator = { name = "bolt3" rotation = { 0 0 0 } position = { 4 0 0 } }
+	attach = { bolt3 = "test_turbolaser_cyan_small_entity" }
+	locator = { name = "bolt4" rotation = { 0 0 0 } position = { -4 0 0 } }
+	attach = { bolt4 = "test_turbolaser_purple_small_entity" }
+	locator = { name = "bolt5" rotation = { 0 0 0 } position = { -6 0 0 } }
+	attach = { bolt5 = "test_blaster_green_small_entity" }
+	locator = { name = "bolt6" rotation = { 0 0 0 } position = { -8 0 0 } }
+	attach = { bolt6 = "test_blaster_red_small_entity" }
+	locator = { name = "bolt7" rotation = { 0 0 0 } position = { -10 0 0 } }
+	attach = { bolt7 = "test_blaster_yellow_small_entity" }
+	
+	locator = { name = "bolt8" rotation = { 0 0 0 } position = { 0 0 6 } }
+	attach = { bolt8 = "veryheavy_turbo_green_medium_entity" }
+	locator = { name = "bolt9" rotation = { 0 0 0 } position = { 0 0 12 } }
+	attach = { bolt9 = "veryheavy_turbo_green_large_entity" }
+	locator = { name = "bolt10" rotation = { 0 0 0 } position = { 0 0 18 } }
+	attach = { bolt10 = "quad_turbo_1_green_small_entity" }
+	locator = { name = "bolt11" rotation = { 0 0 0 } position = { 0 0 24 } }
+	attach = { bolt11 = "octuple_turbo_green_entity" }
+	locator = { name = "bolt12" rotation = { 0 0 0 } position = { 4 0 6 } }
+	attach = { bolt12 = "ion_cannon_2_medium_entity" }
+	locator = { name = "bolt13" rotation = { 0 0 0 } position = { -4 0 6 } }
+	attach = { bolt13 = "st_disruptor_3_medium_entity" }
+	locator = { name = "bolt14" rotation = { 0 0 0 } position = { 6 0 0 } }
+	attach = { bolt14 = "s_concussion_medium_entity" }
+	locator = { name = "bolt15" rotation = { 0 0 0 } position = { 8 0 0 } }
+	attach = { bolt15 = "h_concussion_large_entity" }
+	locator = { name = "bolt16" rotation = { 0 0 0 } position = { 10 0 0 } }
+	attach = { bolt16 = "a_concussion_large_entity" }
+	locator = { name = "bolt17" rotation = { 0 0 0 } position = { 12 0 0 } }
+	attach = { bolt17 = "ionpulse_large_entity" }
+	locator = { name = "bolt18" rotation = { 0 0 0 } position = { 14 0 0 } }
+	attach = { bolt18 = "ionpulse_2_large_entity" }
+	
+	scale = 1.0
+}
+
+entity = {
+	name = "test_turbolaser_red_small_entity"
+	pdxmesh = "sw_turbolaser_r_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	
+	
+	scale = 1.0
+}
+
+entity = {
+	name = "test_turbolaser_blue_small_entity"
+	pdxmesh = "sw_turbolaser_b_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	
+	
+	scale = 1.0
+}
+
+entity = {
+	name = "test_turbolaser_cyan_small_entity"
+	pdxmesh = "sw_turbolaser_c_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" 
+		event = { time = 0 particle = "sw_ion_spark_idle_particle" keep_particle = yes }
+	}
+
+	scale = 1.0
+}
+
+entity = {
+	name = "test_turbolaser_purple_small_entity"
+	pdxmesh = "sw_turbolaser_p_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	
+	
+	scale = 1.0
+}
+
+entity = {
+	name = "test_blaster_green_small_entity"
+	pdxmesh = "sw_blaster_g_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	
+	
+	scale = 1.0
+}
+
+entity = {
+	name = "test_blaster_red_small_entity"
+	pdxmesh = "sw_blaster_r_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	
+	
+	scale = 1.0
+}
+
+entity = {
+	name = "test_blaster_yellow_small_entity"
+	pdxmesh = "sw_blaster_y_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	
+	
+	scale = 1.0
+}
+
+
+
+
+

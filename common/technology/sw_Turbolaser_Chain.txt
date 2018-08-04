@@ -1,0 +1,857 @@
+###################
+# Turbolaser Start
+###################
+
+# Blaster Tech Engineering (Start)
+
+tech_st_blaster_eng = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	weight = @tier1weight1
+
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TURBO_LASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_TURBO_LASER_CHAIN_DESC"
+		}
+	}
+
+	modifier = {
+		max_energy = 250
+	}
+
+	weight_modifier = {
+
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 5
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+# Color Red
+
+tech_st_blastercolor_red = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_st_blaster_eng" }
+	weight = @tier1weight1
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TURBO_LASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_TURBO_LASER_CHAIN_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0
+			OR = {
+				has_technology = tech_st_blastercolor_green
+				has_technology = tech_st_blastercolor_blue
+			}
+        }
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 0
+			OR = {
+				has_technology = tech_st_blastercolor_green
+				has_technology = tech_st_blastercolor_blue
+			}
+        }
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+# Color Green
+
+tech_st_blastercolor_green = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_st_blaster_eng" }
+	weight = @tier1weight1
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TURBO_LASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_TURBO_LASER_CHAIN_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0
+			OR = {
+				has_technology = tech_st_blastercolor_blue
+				has_technology = tech_st_blastercolor_red
+			}
+        }
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 0
+			OR = {
+				has_technology = tech_st_blastercolor_blue
+				has_technology = tech_st_blastercolor_red
+			}
+        }
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+# Color Blue
+
+tech_st_blastercolor_blue = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_st_blaster_eng" }
+	weight = @tier1weight1
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TURBO_LASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_TURBO_LASER_CHAIN_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0
+			OR = {
+				has_technology = tech_st_blastercolor_green
+				has_technology = tech_st_blastercolor_red
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 0
+			OR = {
+				has_technology = tech_st_blastercolor_green
+				has_technology = tech_st_blastercolor_red
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+
+# Ship sized weapons
+tech_st_shipsized_weapons = {
+	area = physics
+	cost = @tier1cost2
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	weight = @tier1weight2
+	prerequisites = { "tech_st_blaster_eng" }
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TURBO_LASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_TURBO_LASER_CHAIN_DESC"
+		}
+	}
+
+	modifier = {
+		tile_resource_energy_mult = 0.05
+		max_energy = 250
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+# Tibanna refined
+tech_st_tibanna_refined = {
+	area = engineering
+	cost = @tier1cost3
+	tier = 2
+	category = { materials }
+	ai_update_type = military
+	weight = @tier1weight4
+	prerequisites = { "tech_st_shipsized_weapons" }
+
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TURBO_LASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_TURBO_LASER_CHAIN_DESC"
+		}
+	}
+
+	modifier = {
+		tile_resource_minerals_mult = 0.05
+		max_minerals = 500
+	}
+
+	weight_modifier = {
+
+		modifier = {
+			factor = 0
+			NOT = {
+				has_technology = tech_light_turbo
+			}
+		}
+
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+# Galven Coils
+tech_st_galven_coils = {
+	area = physics
+	cost = @tier2cost1
+	tier = 2
+	category = { field_manipulation }
+	ai_update_type = military
+	weight = @tier2weight3
+	prerequisites = { "tech_st_tibanna_refined" }
+
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TURBO_LASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_TURBO_LASER_CHAIN_DESC"
+		}
+	}
+
+	modifier = {
+		weapon_type_turbo_laser_weapon_damage_mult = 0.05
+		max_energy = 500
+	}
+
+	weight_modifier = {
+
+		modifier = {
+			factor = 0
+			NOT = {
+				has_technology = tech_turbo_laser
+			}
+		}
+
+		modifier = {
+			factor = 0.2
+			NOT = { years_passed > 15 }
+		}
+
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+}
+
+# Firing Chamber
+tech_st_fire_chamb = {
+	area = engineering
+	cost = @tier3cost1
+	tier = 3
+	category = { materials }
+	ai_update_type = military
+	weight = @tier3weight1
+	prerequisites = { "tech_st_galven_coils" }
+
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TURBO_LASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_TURBO_LASER_CHAIN_DESC"
+		}
+	}
+
+	modifier = {
+		weapon_type_turbo_laser_weapon_damage_mult = 0.05
+	}
+
+	weight_modifier = {
+
+		modifier = {
+			factor = 0
+			NOT = {
+				has_technology = tech_heavy_turbo
+			}
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { years_passed > 25 }
+		}
+
+
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+# Quad Laser Chain
+
+# capacitor component
+tech_st_cap_comp = {
+	area = physics
+	cost = @tier2cost4
+	tier = 2
+	category = { field_manipulation }
+	ai_update_type = military
+	weight = @tier2weight4
+	prerequisites = { "tech_st_galven_coils" }
+
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_QUAD_LASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_QUAD_LASER_CHAIN_DESC"
+		}
+	}
+
+	modifier = {
+		weapon_type_turbo_laser_weapon_fire_rate_mult = 0.05
+		max_energy = 500
+	}
+
+	weight_modifier = {
+
+		modifier = {
+			factor = 0
+			NOT = {
+				has_technology = tech_heavy_turbo
+			}
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { years_passed > 25 }
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+}
+
+# Blaster Radiators
+tech_st_blast_rad = {
+	area = engineering
+	cost = @tier2cost4
+	tier = 2
+	category = { materials }
+	ai_update_type = military
+	weight = @tier3weight1
+	prerequisites = { "tech_st_cap_comp" }
+
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_QUAD_LASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_QUAD_LASER_CHAIN_DESC"
+		}
+	}
+
+	modifier = {
+		tile_resource_minerals_mult = 0.05
+		max_minerals = 500
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.2
+			NOT = { years_passed > 35 }
+		}
+
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+tech_st_astro_mech = {
+	area = physics
+	cost = @tier3cost3
+	tier = 3
+	category = { computing }
+	is_rare = yes
+	weight = @tier3weight3
+	prerequisites = { "tech_quad_turbo_2" "tech_self_aware_logic" }
+
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_QUAD_LASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_QUAD_LASER_CHAIN_DESC"
+		}
+	}
+
+	modifier = {
+		ship_upkeep_mult = -0.05
+		all_technology_research_speed = 0.05
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+}
+
+# Octuple Chain
+tech_st_barrels = {
+	area = engineering
+	cost = @tier3cost3
+	tier = 3
+	category = { materials }
+	weight = @tier3weight3
+	prerequisites = { "tech_st_blast_rad"  }
+
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_OCTUPLE_LASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_OCTUPLE_LASER_CHAIN_DESC"
+		}
+	}
+
+	modifier = {
+		weapon_type_turbo_laser_weapon_fire_rate_mult = 0.05
+		weapon_type_turbo_laser_weapon_damage_mult = 0.05
+	}
+
+	weight_modifier = {
+
+		modifier = {
+			factor = 0
+			NOT = {
+				has_technology = tech_quad_turbo_1
+			}
+		}
+
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+# Ionizing
+tech_st_ionizing = {
+	area = physics
+	cost = @tier2cost2
+	tier = 2
+	category = { field_manipulation }
+	ai_update_type = military
+	weight = @tier2weight3
+	prerequisites = { "tech_st_galven_coils" }
+
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_ION_CANNON_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_ION_CANNON_CHAIN_DESC"
+		}
+	}
+
+	modifier = {
+		tile_resource_energy_mult = 0.05
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.2
+			NOT = { years_passed > 15 }
+		}
+
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+}
+
+# Ion Components
+tech_st_ion_comp = {
+	area = engineering
+	cost = @tier2cost4
+	tier = 2
+	category = { materials }
+	ai_update_type = military
+	weight = @tier3weight1
+	prerequisites = { "tech_st_ionizing" "tech_ion_cannon_2" }
+
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_ION_CANNON_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_ION_CANNON_CHAIN_DESC"
+		}
+	}
+
+	modifier = {
+		tile_resource_minerals_mult = 0.05
+		max_minerals = 500
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 30 }
+		}
+
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+#####
+# Superlaser
+#####
+
+tech_sw_death_plans = {
+	cost = @tier3cost1
+	area = engineering
+	tier = 3
+	category = { materials }
+	prerequisites = { "tech_veryheavy_turbo" }
+	weight = @tier3weight1
+	is_rare = yes
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_SUPERLASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_SUPERLASER_CHAIN_DESC"
+		}
+	}
+
+	modifier = {
+		max_energy = 250
+		max_minerals = 1000
+
+	}
+
+	weight_modifier = {
+
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 80 }
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+tech_sw_kyber_crystal = {
+	cost = @tier3cost2
+	area = engineering
+	tier = 3
+	category = { materials }
+	prerequisites = { "tech_sw_death_plans" }
+	weight = @tier3weight3
+	is_rare = yes
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_SUPERLASER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_SUPERLASER_CHAIN_DESC"
+		}
+	}
+
+	modifier = {
+		max_energy = 1000
+		max_minerals = 1000
+
+	}
+
+	weight_modifier = {
+
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 100 }
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}

@@ -1,0 +1,907 @@
+# Icons set here are the ones show in the actual slot. The reason is so that we can support different icons for different sizes. 
+
+
+
+# DEFAULT VALUES:
+# is_missile = no
+# is_beam = no
+# is_point_defence = no
+
+# ####################
+#  Turbolaser Blue
+# ####################
+
+# ## Light Turbolaser
+weapon_component_template = {
+	type = instant
+	
+	key = "SMALL_LIGHT_TURBO_1_B"
+	size = small
+	entity = "small_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_turbo_laser_b_1"
+	icon_frame = 1
+	
+	damage = { min = 4.0 max = 16.0 }
+	windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 20.0
+	range = 45.0
+	accuracy = 0.68
+	tracking = 0.60
+	
+	shield_damage = 1.15
+	shield_penetration = 0.05
+	armor_penetration = 0.15
+	
+	power = -2.50
+	cost = 2.50
+	
+	prerequisites = { "tech_light_turbo" "tech_st_blastercolor_blue" }
+	component_set = "LIGHT_TURBO_1_B"
+	projectile_gfx = "light_turbo_s_b"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_short_range }
+	upgrades_to = "SMALL_TURBO_LASER_2_B"
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "MEDIUM_LIGHT_TURBO_1_B"
+	size = medium
+	entity = "medium_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_turbo_laser_b_1"
+	icon_frame = 1
+
+	damage = { min = 10.0 max = 37.0 }
+	windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 25.0
+	range = 65.0
+	accuracy = 0.66
+	tracking = 0.30
+	
+	shield_damage = 1.20
+	shield_penetration = 0.05
+	armor_penetration = 0.20
+	
+	power = -5.00
+	cost = 5.00
+	
+	
+	prerequisites = { "tech_light_turbo" "tech_st_blastercolor_blue"}
+	component_set = "LIGHT_TURBO_1_B"
+	projectile_gfx = "light_turbo_m_b"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "MEDIUM_TURBO_LASER_2_B"
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "LARGE_LIGHT_TURBO_1_B"
+	size = large
+	entity = "large_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_turbo_laser_b_1"
+	icon_frame = 1
+
+	damage = { min = 24.0 max = 77.0 }
+	windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 30.0
+	range = 85.0
+	accuracy = 0.64
+	tracking = 0.05
+	
+	shield_damage = 1.25
+	shield_penetration = 0.05
+	armor_penetration = 0.25
+	
+	power = -10.0
+	cost = 10.0
+	
+	
+	prerequisites = { "tech_light_turbo" "tech_st_blastercolor_blue" }
+	component_set = "LIGHT_TURBO_1_B"
+	projectile_gfx = "light_turbo_l_b"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "LARGE_TURBO_LASER_2_B"
+}
+
+# ## Turbolaser
+weapon_component_template = {
+	type = instant
+	
+	key = "SMALL_TURBO_LASER_2_B"
+	size = small
+	entity = "small_kinetic_gun_entity"
+		
+	icon = "GFX_ship_part_turbo_laser_b_2"
+	icon_frame = 1
+	
+	damage = { min = 5.0 max = 18.0 }
+	windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 20.0
+	range = 45.0
+	accuracy = 0.68
+	tracking = 0.60
+	
+	shield_damage = 1.15
+	shield_penetration = 0.05
+	armor_penetration = 0.15
+	
+	power = -3.75
+	cost = 5.00
+	
+	
+	
+	prerequisites = { "tech_turbo_laser" "tech_st_blastercolor_blue" }
+	component_set = "TURBO_LASER_2_B"
+	projectile_gfx = "turbolaser_s_b"
+	tags = { weapon_type_turbo_laser	}
+	ai_tags = { weapon_role_short_range }
+	upgrades_to = "SMALL_MEDIUM_TURBO_3_B"
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "MEDIUM_TURBO_LASER_2_B"
+	size = medium
+	entity = "medium_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_turbo_laser_b_2"
+	icon_frame = 1
+	
+	damage = { min = 12.0 max = 38.0 }
+	windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 25.0
+	range = 65.0
+	accuracy = 0.66
+	tracking = 0.30
+	
+	shield_damage = 1.20
+	shield_penetration = 0.05
+	armor_penetration = 0.20
+	
+	power = -7.50
+	cost = 10.00
+	
+	
+	prerequisites = { "tech_turbo_laser" "tech_st_blastercolor_blue" }
+	component_set = "TURBO_LASER_2_B"
+	projectile_gfx = "turbolaser_m_b"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "MEDIUM_MEDIUM_TURBO_3_B"
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "LARGE_TURBO_LASER_2_B"
+	size = large
+	entity = "large_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_turbo_laser_b_2"
+	icon_frame = 1
+	
+	damage = { min = 28.0 max = 87.0 }
+	windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 30.0
+	range = 85.0
+	accuracy = 0.64
+	tracking = 0.05
+	
+	shield_damage = 1.25
+	shield_penetration = 0.05
+	armor_penetration = 0.25
+	
+	power = -15.00
+	cost = 20.00
+	
+	
+	prerequisites = { "tech_turbo_laser" "tech_st_blastercolor_blue" }
+	component_set = "TURBO_LASER_2_B"
+	projectile_gfx = "turbolaser_l_b"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "LARGE_MEDIUM_TURBO_3_B"
+}
+
+# ## Medium Turbolaser
+weapon_component_template = {
+	type = instant
+	
+	key = "SMALL_MEDIUM_TURBO_3_B"
+	size = small
+	entity = "small_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_turbo_laser_b_3"
+	icon_frame = 1
+	
+	damage = { min = 6.0 max = 20.0 }
+	windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 20.0
+	range = 45.0
+	accuracy = 0.69
+	tracking = 0.60
+	
+	shield_damage = 1.25
+	shield_penetration = 0.05
+	armor_penetration = 0.25
+	
+	power = -5.00
+	cost = 7.50
+	
+	prerequisites = { "tech_medium_turbo" "tech_st_blastercolor_blue" }
+	component_set = "MEDIUM_TURBO_3_B"
+	projectile_gfx = "medium_turbolaser_s_b"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_short_range }
+	upgrades_to = "SMALL_HEAVY_TURBO_4_B"
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "MEDIUM_MEDIUM_TURBO_3_B"
+	size = medium
+	entity = "medium_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_turbo_laser_b_3"
+	icon_frame = 1
+	
+	damage = { min = 14.0 max = 42.0 }
+	windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 25.0
+	range = 65.0
+	accuracy = 0.67
+	tracking = 0.30
+	
+	shield_damage = 1.30
+	shield_penetration = 0.05
+	armor_penetration = 0.30
+	
+	power = -10.00
+	cost = 15.00
+	
+	
+	prerequisites = { "tech_medium_turbo" "tech_st_blastercolor_blue" }
+	component_set = "MEDIUM_TURBO_3_B"
+	projectile_gfx = "medium_turbolaser_m_b"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "MEDIUM_HEAVY_TURBO_4_B"
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "LARGE_MEDIUM_TURBO_3_B"
+	size = large
+	entity = "large_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_turbo_laser_b_3"
+	icon_frame = 1
+	
+	damage = { min = 33.0 max = 95.0 }
+	windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 30.0
+	range = 85.0
+	accuracy = 0.65
+	tracking = 0.05
+	
+	shield_damage = 1.35
+	shield_penetration = 0.05
+	armor_penetration = 0.35
+	
+	power = -20.00
+	cost = 30.00
+	
+	
+	prerequisites = { "tech_medium_turbo" "tech_st_blastercolor_blue" }
+	component_set = "MEDIUM_TURBO_3_B"
+	projectile_gfx = "medium_turbolaser_l_b"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "LARGE_HEAVY_TURBO_4_B"
+}
+
+# ## Heavy Turbolaser
+weapon_component_template = {
+	type = instant
+	
+	key = "SMALL_HEAVY_TURBO_4_B"
+	size = small
+	entity = "small_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_turbo_laser_b_4"
+	icon_frame = 1
+	
+	damage = { min = 7.0 max = 22.0 }
+	windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 20.0
+	range = 45.0
+	accuracy = 0.69
+	tracking = 0.60
+	
+	shield_damage = 1.25
+	shield_penetration = 0.05
+	armor_penetration = 0.25
+	
+	power = -6.75
+	cost = 10.00
+	
+	prerequisites = { "tech_heavy_turbo" "tech_st_blastercolor_blue" }
+	component_set = "HEAVY_TURBO_4_B"
+	projectile_gfx = "heavy_turbo_s_b"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_short_range }
+	upgrades_to = "SMALL_VERYHEAVY_TURBO_5_B"
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "MEDIUM_HEAVY_TURBO_4_B"
+	size = medium
+	entity = "medium_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_turbo_laser_b_4"
+	icon_frame = 1
+	
+	damage = { min = 16.0 max = 47.0 }
+	windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 25.0
+	range = 65.0
+	accuracy = 0.67
+	tracking = 0.30
+	
+	shield_damage = 1.30
+	shield_penetration = 0.05
+	armor_penetration = 0.30
+	
+	power = -12.50
+	cost = 20.00
+	
+	prerequisites = { "tech_heavy_turbo" "tech_st_blastercolor_blue" }
+	component_set = "HEAVY_TURBO_4_B"
+	projectile_gfx = "heavy_turbo_m_b"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "MEDIUM_VERYHEAVY_TURBO_5_B"
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "LARGE_HEAVY_TURBO_4_B"
+	size = large
+	entity = "large_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_turbo_laser_b_4"
+	icon_frame = 1
+	
+	damage = { min = 39.0 max = 103.0 }
+	windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 30.0
+	range = 85.0
+	accuracy = 0.65
+	tracking = 0.05
+	
+	shield_damage = 1.35
+	shield_penetration = 0.05
+	armor_penetration = 0.35
+	
+	power = -25.00
+	cost = 40.00
+	
+	
+	prerequisites = { "tech_heavy_turbo" "tech_st_blastercolor_blue" }
+	component_set = "HEAVY_TURBO_4_B"
+	projectile_gfx = "heavy_turbo_l_b"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "LARGE_VERYHEAVY_TURBO_5_B"
+}
+
+# ## Very Heavy Turbolaser
+weapon_component_template = {
+	type = instant
+	
+	key = "SMALL_VERYHEAVY_TURBO_5_B"
+	size = small
+	entity = "small_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_turbo_laser_b_5"
+	icon_frame = 1
+	
+	damage = { min = 8.0 max = 24.0 }
+	windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 20.0
+	range = 45.0
+	accuracy = 0.70
+	tracking = 0.60
+	
+	shield_damage = 1.30
+	shield_penetration = 0.05
+	armor_penetration = 0.30
+	
+	power = -7.50
+	cost = 12.50
+	
+	prerequisites = { "tech_veryheavy_turbo" "tech_st_blastercolor_blue" }
+	component_set = "VERYHEAVY_TURBO_5_B"
+	projectile_gfx = "veryheavy_turbo_s_b"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_short_range }
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "MEDIUM_VERYHEAVY_TURBO_5_B"
+	size = medium
+	entity = "medium_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_turbo_laser_b_5"
+	icon_frame = 1
+	
+	damage = { min = 18.0 max = 51.0 }
+	windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 25.0
+	range = 65.0
+	accuracy = 0.68
+	tracking = 0.30
+	
+	shield_damage = 1.35
+	shield_penetration = 0.05
+	armor_penetration = 0.35
+	
+	power = -15.00
+	cost = 25.00
+	
+	prerequisites = { "tech_veryheavy_turbo" "tech_st_blastercolor_blue" }
+	component_set = "VERYHEAVY_TURBO_5_B"
+	projectile_gfx = "veryheavy_turbo_m_b"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_anti_armor }
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "LARGE_VERYHEAVY_TURBO_5_B"
+	size = large
+	entity = "large_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_turbo_laser_b_5"
+	icon_frame = 1
+	
+	
+	damage = { min = 44.0 max = 112.0 }
+	windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 30.0
+	range = 85.0
+	accuracy = 0.66
+	tracking = 0.05
+	
+	shield_damage = 1.40
+	shield_penetration = 0.05
+	armor_penetration = 0.40
+	
+	power = -30.00
+	cost = 50.00
+	
+	
+	prerequisites = { "tech_veryheavy_turbo" "tech_st_blastercolor_blue" }
+	component_set = "VERYHEAVY_TURBO_5_B"
+	projectile_gfx = "veryheavy_turbo_l_b"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_long_range }
+}
+
+# ####################
+#  Quad Turbolaser
+# ####################
+#Quad 1
+
+weapon_component_template = {
+	type = instant
+	
+	key = "SMALL_QUAD_TURBO_1_B"
+	size = small
+	entity = "small_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_quad_turbo_b_1"
+	icon_frame = 1
+	
+	damage = { min = 14.0 max = 32.0 }
+	windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 30.0
+	range = 30.0
+	accuracy = 0.74
+	tracking = 0.65
+	
+	shield_damage = 1.30
+	shield_penetration = 0.05
+	armor_penetration = 0.40
+	
+	power = -10
+	cost = 15.00
+	
+	prerequisites = { "tech_quad_turbo_1" "tech_st_blastercolor_blue" }
+	component_set = "QUAD_TURBO_1_B"
+	projectile_gfx = "quad_turbo_1_s_b"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_short_range }
+	upgrades_to = "SMALL_QUAD_TURBO_2_B"
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "MEDIUM_QUAD_TURBO_1_B"
+	size = medium
+	entity = "medium_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_quad_turbo_b_1"
+	icon_frame = 1
+	
+	damage = { min = 26.0 max = 60.0 }
+	windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 32.5
+	range = 50.0
+	accuracy = 0.72
+	tracking = 0.35
+	
+	shield_damage = 1.35
+	shield_penetration = 0.05
+	armor_penetration = 0.45
+	
+	power = -16
+	cost = 30.00
+	
+	prerequisites = { "tech_quad_turbo_1" "tech_st_blastercolor_blue" }
+	component_set = "QUAD_TURBO_1_B"
+	projectile_gfx = "quad_turbo_1_m_b"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_short_range }
+	upgrades_to = "MEDIUM_QUAD_TURBO_2_B"
+}
+
+
+#Quad 2
+
+weapon_component_template = {
+	type = instant
+	
+	key = "SMALL_QUAD_TURBO_2_B"
+	size = small
+	entity = "small_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_quad_turbo_b_2"
+	icon_frame = 1
+	
+	damage = { min = 16.0 max = 35.0 }
+	windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 30.0
+	range = 30.0
+	accuracy = 0.75
+	tracking = 0.65
+	
+	shield_damage = 1.30
+	shield_penetration = 0.05
+	armor_penetration = 0.40
+	
+	power = -12
+	cost = 25.00
+	
+	prerequisites = { "tech_quad_turbo_2" "tech_st_blastercolor_blue" }
+	component_set = "QUAD_TURBO_2_B"
+	projectile_gfx = "quad_turbo_1_s_b"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_short_range }
+
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "MEDIUM_QUAD_TURBO_2_B"
+	size = medium
+	entity = "medium_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_quad_turbo_b_2"
+	icon_frame = 1
+	
+	damage = { min = 28.0 max = 64.0 }
+	windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 32.5
+	range = 50.0
+	accuracy = 0.73
+	tracking = 0.35
+	
+	shield_damage = 1.35
+	shield_penetration = 0.05
+	armor_penetration = 0.45
+	
+	power = -17
+	cost = 40.00
+	
+	prerequisites = { "tech_quad_turbo_2" "tech_st_blastercolor_blue" }
+	component_set = "QUAD_TURBO_2_B"
+	projectile_gfx = "quad_turbo_1_m_b"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_short_range }
+
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "LARGE_QUAD_TURBO_2_B"
+	size = large
+	entity = "large_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_quad_turbo_b_2"
+	icon_frame = 1
+	
+	damage = { min = 50.0 max = 114.0 }
+	windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 35.0
+	range = 70.0
+	accuracy = 0.71
+	tracking = 0.10
+	
+	shield_damage = 1.40
+	shield_penetration = 0.05
+	armor_penetration = 0.50
+	
+	power = -35.00
+	cost = 60.00
+	
+	
+	prerequisites = { "tech_quad_turbo_2" "tech_st_blastercolor_blue" }
+	component_set = "QUAD_TURBO_2_B"
+	projectile_gfx = "quad_turbo_1_l_b"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_short_range }
+	
+}
+
+#Quad 3
+
+weapon_component_template = {
+	type = instant
+	
+	key = "MEDIUM_QUAD_TURBO_3_B"
+	size = medium
+	entity = "medium_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_quad_turbo_b_3"
+	icon_frame = 1
+	
+	damage = { min = 30.0 max = 64.0 }
+	windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 32.5
+	range = 50.0
+	accuracy = 0.74
+	tracking = 0.35
+	
+	shield_damage = 1.40
+	shield_penetration = 0.05
+	armor_penetration = 0.50
+	
+	power = -21
+	cost = 50.00
+	
+	prerequisites = { "tech_quad_turbo_3" "tech_st_blastercolor_blue" }
+	component_set = "QUAD_TURBO_3_B"
+	projectile_gfx = "quad_turbo_1_m_b"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_short_range }
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "LARGE_QUAD_TURBO_3_B"
+	size = large
+	entity = "large_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_quad_turbo_b_3"
+	icon_frame = 1
+	
+	damage = { min = 56.0 max = 118.0 }
+	windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 35.0
+	range = 70.0
+	accuracy = 0.72
+	tracking = 0.10
+	
+	shield_damage = 1.45
+	shield_penetration = 0.05
+	armor_penetration = 0.55
+	
+	power = -45.00
+	cost = 70.00
+	
+	
+	prerequisites = { "tech_quad_turbo_3" "tech_st_blastercolor_blue" }
+	component_set = "QUAD_TURBO_3_B"
+	projectile_gfx = "quad_turbo_1_l_b"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_short_range }
+}
+
+#####################
+#  Octuple Turbolaser
+#####################
+
+### Octuple Turbolaser 1
+weapon_component_template = {
+	type = instant
+	
+	key = "LARGE_OCTUPLE_TURBO_1_B"
+	size = large
+	entity = "octuple_entity"
+	
+	icon = "GFX_ship_part_octuple_turbo_b_1"
+	icon_frame = 1
+	
+
+	
+	damage = { min = 133.0 max = 243.0 }
+	windup = { min = 1.0 max = 20.0 }
+	total_fire_time = 65.0
+	range = 100.0
+	accuracy = 0.62
+	tracking = 0.05
+	
+	shield_damage = 1.30
+	shield_penetration = 0.05
+	armor_penetration = 0.40
+	
+	power = -55.00
+	cost = 100.00
+	
+	prerequisites = { "tech_octuple_turbo_1" "tech_st_blastercolor_blue" }
+	component_set = "OCTUPLE_TURBO_1_B"
+	projectile_gfx = "octuple_turbo_b"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_long_range }
+	upgrades_to = "LARGE_OCTUPLE_TURBO_2_B"
+}
+
+### Octuple Turbolaser 2
+weapon_component_template = {
+	type = instant
+	
+	key = "LARGE_OCTUPLE_TURBO_2_B"
+	size = large
+	entity = "octuple_entity"
+	
+	icon = "GFX_ship_part_octuple_turbo_b_2"
+	icon_frame = 1
+	
+	
+	
+	damage = { min = 143.0 max = 261.0 }
+	windup = { min = 1.0 max = 20.0 }
+	total_fire_time = 63.0
+	range = 100.0
+	accuracy = 0.64
+	tracking = 0.07
+	
+	shield_damage = 1.40
+	shield_penetration = 0.05
+	armor_penetration = 0.50
+	
+	power = -65.00
+	cost = 120.00
+	
+	
+	prerequisites = { "tech_octuple_turbo_2" "tech_st_blastercolor_blue" }
+	component_set = "OCTUPLE_TURBO_2_B"
+	projectile_gfx = "octuple_turbo_b"
+	tags = { weapon_type_turbo_laser }
+	ai_tags = { weapon_role_long_range }
+}
+
+
+
+# ####################
+# Spaceport Turbolaser
+# ####################
+
+weapon_component_template = {
+	key = "SMALL_SPACEPORT_TURBO_LASER_B"
+	size = small
+	entity = "small_kinetic_gun_entity"
+	
+	type = instant
+	icon = "GFX_ship_part_turbo_laser_b_3"
+	icon_frame = 1
+	
+	damage = { min = 5.0 max = 17.0 }
+	windup = { min = 2.0 max = 18.0 }
+	total_fire_time = 24.0
+	range = 45.0
+	accuracy = 0.74
+	tracking = 0.60
+	
+	shield_damage = 1.20
+	shield_penetration = 0.0
+	armor_penetration = 0.30
+	
+	power = 0.0
+	cost = 0.0
+	
+	projectile_gfx = "veryheavy_turbo_s_b"
+	hidden = yes
+	component_set = "SPACEPORT_TURBO_LASER_B"
+	tags = { weapon_type_turbo_laser }
+}
+
+weapon_component_template = {
+	key = "MEDIUM_SPACEPORT_TURBO_LASER_B"
+	size = medium
+	entity = "medium_kinetic_gun_entity"
+	
+	type = instant
+	icon = "GFX_ship_part_turbo_laser_b_3"
+	icon_frame = 1
+	
+	damage = { min = 8.0 max = 33.0 }
+	windup = { min = 2.0 max = 18.0 }
+	total_fire_time = 24.0
+	range = 65.0
+	accuracy = 0.73
+	tracking = 0.30
+	
+	shield_damage = 1.20
+	shield_penetration = 0.0
+	armor_penetration = 0.30
+	
+	power = 0.0
+	cost = 0.0
+	
+	
+	projectile_gfx = "veryheavy_turbo_l_b"
+	hidden = yes
+	component_set = "SPACEPORT_TURBO_LASER_B"
+	tags = { weapon_type_turbo_laser }
+}
+
+weapon_component_template = {
+	key = "LARGE_SPACEPORT_TURBO_LASER_B"
+	size = large
+	entity = "large_kinetic_gun_entity"
+	
+	type = instant
+	icon = "GFX_ship_part_turbo_laser_b_3"
+	icon_frame = 1
+	
+	damage = { min = 18.0 max = 68.0 }
+	windup = { min = 2.0 max = 18.0 }
+	total_fire_time = 24.0
+	range = 85.0
+	accuracy = 0.72
+	tracking = 0.10
+	
+	shield_damage = 1.20
+	shield_penetration = 0.0
+	armor_penetration = 0.30
+	
+	power = 0.0
+	cost = 0.0
+	
+	projectile_gfx = "veryheavy_turbo_l_b"
+	hidden = yes
+	component_set = "SPACEPORT_TURBO_LASER_B"
+	tags = { weapon_type_turbo_laser }
+}

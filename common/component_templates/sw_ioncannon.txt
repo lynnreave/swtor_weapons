@@ -1,0 +1,314 @@
+# Icons set here are the ones show in the actual slot. The reason is so that we can support different icons for different sizes. 
+
+
+
+# DEFAULT VALUES:
+# is_missile = no
+# is_beam = no
+# is_point_defence = no
+
+# ####################
+#  Ion Cannon
+# ####################
+
+# ## Ion Cannon Light
+weapon_component_template = {
+	type = instant
+	
+	key = "SMALL_ION_CANNON_1"
+	size = small
+	entity = "small_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_ion_cannon_1"
+	icon_frame = 1
+	
+	
+	damage = { min = 4.0 max = 8.0 }
+	windup = { min = 1.0 max = 20.0 }
+	total_fire_time = 25.0
+	range = 40.0
+	accuracy = 0.80
+	tracking = 0.60
+	
+	shield_damage = 3.0
+	shield_penetration = 0.00
+	armor_penetration = 0.00
+	
+	power = -7.50
+	cost = 7.50
+	
+	
+	prerequisites = { "tech_ion_cannon_1" }
+	component_set = "ION_CANNON_1"
+	projectile_gfx = "ion_cannon_1_s"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_shield }	
+	upgrades_to = "SMALL_ION_CANNON_2"
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "MEDIUM_ION_CANNON_1"
+	size = medium
+	entity = "medium_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_ion_cannon_1"
+	icon_frame = 1
+
+	
+	damage = { min = 9.0 max = 17.0 }
+	windup = { min = 1.0 max = 20.0 }
+	total_fire_time = 27.5
+	range = 60.0
+	accuracy = 0.78
+	tracking = 0.30
+	
+	shield_damage = 3.25
+	shield_penetration = 0.00
+	armor_penetration = 0.00
+	
+	power = -15.00
+	cost = 15.00
+	
+	
+	prerequisites = { "tech_ion_cannon_1"}
+	component_set = "ION_CANNON_1"
+	projectile_gfx = "ion_cannon_1_m"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "MEDIUM_ION_CANNON_2"
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "LARGE_ION_CANNON_1"
+	size = large
+	entity = "large_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_ion_cannon_1"
+	icon_frame = 1
+	
+
+	damage = { min = 18.0 max = 33.0 }
+	windup = { min = 1.0 max = 20.0 }
+	total_fire_time = 30.0
+	range = 80.0
+	accuracy = 0.76
+	tracking = 0.10
+	
+	shield_damage = 3.5
+	shield_penetration = 0.00
+	armor_penetration = 0.00
+	
+	power = -30.0
+	cost = 30.0
+	
+	
+	prerequisites = { "tech_ion_cannon_1" }
+	component_set = "ION_CANNON_1"
+	projectile_gfx = "ion_cannon_1_l"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_ship }
+	upgrades_to = "LARGE_ION_CANNON_2"
+}
+
+
+# ## Ion Cannon Medium
+weapon_component_template = {
+	type = instant
+	
+	key = "SMALL_ION_CANNON_2"
+	size = small
+	entity = "small_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_ion_cannon_2"
+	icon_frame = 1
+	
+	
+	damage = { min = 5.0 max = 9.0 }
+	windup = { min = 1.0 max = 20.0 }
+	total_fire_time = 25.0
+	range = 40.0
+	accuracy = 0.80
+	tracking = 0.60
+	
+	shield_damage = 3.0
+	shield_penetration = 0.00
+	armor_penetration = 0.00
+	
+	power = -10.0
+	cost = 10.0
+	
+	prerequisites = { "tech_ion_cannon_2" }
+	component_set = "ION_CANNON_2"
+	projectile_gfx = "ion_cannon_2_s"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "SMALL_ION_CANNON_3"
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "MEDIUM_ION_CANNON_2"
+	size = medium
+	entity = "medium_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_ion_cannon_2"
+	icon_frame = 1
+	
+	
+	damage = { min = 11.0 max = 20.0 }
+	windup = { min = 1.0 max = 20.0 }
+	total_fire_time = 27.5
+	range = 60.0
+	accuracy = 0.78
+	tracking = 0.30
+	
+	shield_damage = 3.25
+	shield_penetration = 0.00
+	armor_penetration = 0.00
+	
+	power = -20.0
+	cost = 20.0
+	
+	prerequisites = { "tech_ion_cannon_2"}
+	component_set = "ION_CANNON_2"
+	projectile_gfx = "ion_cannon_2_m"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "MEDIUM_ION_CANNON_3"
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "LARGE_ION_CANNON_2"
+	size = large
+	entity = "large_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_ion_cannon_2"
+	icon_frame = 1
+	
+
+	damage = { min = 21.0 max = 44.0 }
+	windup = { min = 1.0 max = 20.0 }
+	total_fire_time = 30.0
+	range = 80.0
+	accuracy = 0.76
+	tracking = 0.10
+	
+	shield_damage = 3.5
+	shield_penetration = 0.0
+	armor_penetration = 0.00
+	
+	power = -40.0
+	cost = 40.0
+	
+	prerequisites = { "tech_ion_cannon_2" }
+	component_set = "ION_CANNON_2"
+	projectile_gfx = "ion_cannon_2_l"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_ship }
+	upgrades_to = "LARGE_ION_CANNON_3"
+}
+
+# ## Ion Cannon Heavy
+weapon_component_template = {
+	type = instant
+	
+	key = "SMALL_ION_CANNON_3"
+	size = small
+	entity = "small_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_ion_cannon_3"
+	icon_frame = 1
+	
+	
+	damage = { min = 6.0 max = 10.0 }
+	windup = { min = 1.0 max = 20.0 }
+	total_fire_time = 25.0
+	range = 40.0
+	accuracy = 0.80
+	tracking = 0.60
+	
+	shield_damage = 3.0
+	shield_penetration = 0.0
+	armor_penetration = 0.0
+	
+	power = -12.50
+	cost = 12.50
+	
+	prerequisites = { "tech_ion_cannon_3" }
+	component_set = "ION_CANNON_3"
+	projectile_gfx = "ion_cannon_3_s"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_shield }	
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "MEDIUM_ION_CANNON_3"
+	size = medium
+	entity = "medium_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_ion_cannon_3"
+	icon_frame = 1
+	
+	
+	damage = { min = 11.0 max = 24.0 }
+	windup = { min = 1.0 max = 20.0 }
+	total_fire_time = 27.5
+	range = 60.0
+	accuracy = 0.78
+	tracking = 0.30
+	
+	shield_damage = 3.25
+	shield_penetration = 0.00
+	armor_penetration = 0.00
+	
+	power = -25.0
+	cost = 25.0
+	
+	prerequisites = { "tech_ion_cannon_3"}
+	component_set = "ION_CANNON_3"
+	projectile_gfx = "ion_cannon_3_m"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_shield }	
+}
+
+weapon_component_template = {
+	type = instant
+	
+	key = "LARGE_ION_CANNON_3"
+	size = large
+	entity = "large_kinetic_gun_entity"
+	
+	icon = "GFX_ship_part_ion_cannon_3"
+	icon_frame = 1
+	
+
+	damage = { min = 25.0 max = 52.0 }
+	windup = { min = 1.0 max = 20.0 }
+	total_fire_time = 30.0
+	range = 80.0
+	accuracy = 0.76
+	tracking = 0.10
+	
+	shield_damage = 3.50
+	shield_penetration = 0.05
+	armor_penetration = 0.00
+	
+	power = -50.0
+	cost = 50.0
+	
+
+	prerequisites = { "tech_ion_cannon_3" }
+	component_set = "ION_CANNON_3"
+	projectile_gfx = "ion_cannon_3_l"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_ship }
+}

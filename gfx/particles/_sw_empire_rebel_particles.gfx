@@ -1,0 +1,84 @@
+objectTypes = {
+
+####################
+#	MUZZLE FLASHES
+####################
+	
+	pdxparticle = {
+		name = "sw_proton_small_muzzle_particle"
+		type = "sw_proton_torpedo_file"
+		
+		scale = 0.1
+	}
+	
+	pdxparticle = {
+		name = "red_blaster_small_muzzle_particle"
+		type = "turbo_red_muzzle"
+		
+		scale = 0.1
+	}
+	
+	pdxparticle = {
+		name = "green_blaster_small_muzzle_particle"
+		type = "turbo_green_muzzle"
+	
+		scale = 0.1
+	}
+	
+	pdxparticle = {
+		name = "yellow_blaster_small_muzzle_particle"
+		type = "blaster_yellow_muzzle"
+		
+		scale = 0.1
+	}
+	
+#################
+#	FLYING EFFECTS
+#################	
+	
+	pdxparticle = {
+		name = "small_sw_proton_idle_particle"
+		type = "sw_proton_torpedo_idle_file"
+		
+		scale = 0.5
+	}
+	pdxparticle = {
+		name = "small_sw_proton_idle_drops_particle"
+		type = "sw_proton_torpedo_idle_drops_file"
+		
+		scale = 0.5
+	}
+	
+#####
+# HIT EFFECTS
+####
+
+	pdxparticle = {
+		name = "sw_proton_small_hit_effect"
+		type = "sw_proton_torpedo_hit_effect"
+		
+		scale = 0.35
+	}
+	
+	pdxparticle = {
+		name = "red_blaster_small_hit_effect"
+		type = "Turbo_red_hit_effect"
+		
+		scale = 0.2
+	}
+	
+	pdxparticle = {
+		name = "green_blaster_small_hit_effect"
+		type = "Turbo_green_hit_effect"
+		
+		scale = 0.2
+	}
+	
+	pdxparticle = {
+		name = "yellow_blaster_small_hit_effect"
+		type = "blaster_yellow_hit_effect"
+		
+		scale = 0.2
+	}
+
+}
